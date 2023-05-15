@@ -1,0 +1,17 @@
+version: '3.9'
+  
+services:
+  freja:
+    container_name: freja
+    image: klakegg/hugo
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:81"
+    networks:
+      - valhalla
+    command: "server -D"
+        
+networks:
+  valhalla:
+    driver: bridge
