@@ -1,17 +1,16 @@
-version: '3.9'
-  
+version: '3.9'  
+
 services:
-  freja:
-    container_name: freja
-    image: klakegg/hugo
+  hugin:
+    image: klakegg/hugo:0.107.0-ext-alpine
     volumes:
       - ".:/src"
     ports:
-      - "1313:81"
+      - "1313:1313"
+    command: server -D
     networks:
       - valhalla
-    command: "server -D"
-        
+
 networks:
   valhalla:
     driver: bridge
