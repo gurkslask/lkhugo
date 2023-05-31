@@ -1,0 +1,10 @@
+# Poseter
+<div class="tags-list">
+    {{- with .Params.tags -}}
+        {{- if ge (len .) 1 -}}
+            {{- range . -}}
+                <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/">#{{ . }}</a>
+            {{ end -}}
+        {{- end -}}
+    {{- end -}}
+</div>

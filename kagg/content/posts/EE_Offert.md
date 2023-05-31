@@ -26,3 +26,5 @@ Gör ett Kalkylark där ni ställer upp alla kostnader för hårdvara, mjukvarul
 Föreslå också lösningar och uppgraderingar för företaget, till exempel en UPS för att säkerställa säker drift av servern, hur mycket extra kostar detta. Räkna pris för hårdvara samt timpris för att sätta upp utrustningen.<br>
 Skapa också ett textdokument där ni beskriver lösningen i text och varför företaget borde välja nisse's data som leverantör.<br>
 Nisse's data har rabatt på HP-prylar, så försök att hitta så mycket material som möjligt från HP då ni har 10% rabatt på allting från HP.
+
+{{ .Param tags }}

@@ -11,7 +11,9 @@ showFullContent = false
 draft= true
 +++
 
+
 # Fältbussar
+
 Fältbussar är ett kommunikationsgränssnitt inom industriell automation för att ansluta enheter till ett nätverk för smart kommunikation.
 De vanligaste fältbussarna är profibus, profinet, modbus och CAN-bus.
 
