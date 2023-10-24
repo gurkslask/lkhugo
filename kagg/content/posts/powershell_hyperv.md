@@ -4,7 +4,7 @@ date = "2023-05-15"
 author = "Alex"
 authorTwitter = "" #do not include @
 cover = ""
-tags = ["Övning", "Powershell"]
+tags = ["EE", "Teknik", "Övning", "Powershell"]
 description = ""
 showFullContent = false
 +++

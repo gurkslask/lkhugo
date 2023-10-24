@@ -4,7 +4,7 @@ date = "2023-05-15"
 author = "Alex"
 authorTwitter = "" #do not include @
 cover = ""
-tags = ["Övning", "Support och hemservice"]
+tags = ["EE", Övning", "Support och hemservice"]
 description = ""
 showFullContent = false
 +++
