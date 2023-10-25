@@ -1,10 +1,10 @@
 +++
 title = "Köp servicebil"
-date = "2023-05-15"
+date = "2023-06-19T14:14:10+02:00"
 author = "Alex"
 authorTwitter = "" #do not include @
 cover = ""
-tags = ["EE", Övning", "Support och hemservice"]
+tags = ["EE", "Övning", "Support och hemservice"]
 description = ""
 showFullContent = false
 +++
