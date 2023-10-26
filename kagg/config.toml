@@ -96,7 +96,7 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "EE"
         name = "EE"
-        url = "/ee"
+        url = "/tags/ee"
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
