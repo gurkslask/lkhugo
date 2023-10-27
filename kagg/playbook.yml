@@ -64,12 +64,12 @@
             
     - name: Tear down existing services
       community.docker.docker_compose:
-        project_src: /srv/checkout/kagg
+        project_src: /home/oliver/lkdata
         state: absent
         
     - name: Create and start services
       community.docker.docker_compose:
-        project_src: /srv/checkout/kagg
+        project_src: /home/oliver/lkdata
       register: output
 
     - ansible.builtin.debug:
