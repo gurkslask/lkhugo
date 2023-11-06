@@ -20,4 +20,10 @@ Nu när vi har lösenordet till nätverket så kan vi ansluta till nätverket oc
 
     nmap -sn 192.168.3.0/24
 
-Med detta kommando söker vi igenom de 255 IP-adresser som finns på nätverk, 192.168.3.1 - 192.168.3.254. nmap kommer upptäcka vilka adresser som används. Sen måste vi 
+Med detta kommando söker vi igenom de 255 IP-adresser som finns på nätverk, 192.168.3.1 - 192.168.3.254. nmap kommer upptäcka vilka adresser som används.
+
+Sen måste vi söka igenom antalet portar som är öppna på den maskin som vi vill komma åt:
+
+nmap -p1-10000 *IP_ADRESSEN*
+
+Med detta kommando frågar vi enheten på IP adressen vilka portar som är öppna, oc vi ser att endast SSH porten är öppen
