@@ -146,10 +146,13 @@ root användare finns i alla Linux-operativsystem. root användaren har fulla r�
 som man skriver innan man installerar ett program till exempel. Då används root rättigheter just till det man vill göra, sen är man en vanlig användare igen.
 
 ## Serverversion
+De flesta distributioner har en *desktop*-variant och en *server*-variant av sitt operativsystem. Den stora skillnaden mellan desktop och server är att server varianten inte har en fönsterhanterare utan endast CLI (command line interface, alltså text). Detta för att serverns datorkraft endast ska användas till 
 
 ## Support
 
 ## Anpassning
+
+## Applikationer
 
 ## bash
 
