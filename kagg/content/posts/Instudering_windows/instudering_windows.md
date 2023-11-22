@@ -61,33 +61,35 @@ Började som MS-DOS, med Windows 3.11 kom fönster.
  Operativsystem för datorer utan grafiskt gränssnitt. Här kunde man endast skriva kommandon till en "terminal". Detta operativsystem låg som grund för de senare grafiska.
  - **Windows 3.0 (1990)**:
  Denna versionen populariserade användningen av windows grafiska gränssnitt för persondatorer
- <img src="Windows_3.png">
+ ![Windows 3](./Windows_3.png)
 <span style="font-size:9px">Skrivbord windows 3</span>
  - **Windows 95 (1995)**:
  Start-knappen introducerades, aktiv skrivbordsmiljö aktiverades och Plug-and-Play hårdvaruinstallation
- <img src="win95.png">
+![Windows 95](./win95.png)
 <span style="font-size:9px">Skrivbord windows 95</span>
  - **Windows 98 (1998)**: 
   Förbättrade kompatibilitet och prestanda, Internet explorer användes som standard-webbläsare.
- <img src="w98.png">
+![Windows 98](./w98.png)
 <span style="font-size:9px">Skrivbord windows 98</span>
  - **Windows 2000 (2000)**:
  Windows 2000 var inriktat på företagsanvändare och erbjöd ökad stabilitet och säkerhet.
- <img src="win2000pro.png">
+![Windows 2000](./win2000pro.png)
 <span style="font-size:9px">Skrivbord windows 2000</span>
  - **Windows XP (2001)**: Windows XP var extremt populärt och kändes som en av de mest stabila och användarvänliga versionerna. Den användes under lång tid.
- <img src="wxp.jpg">
+![Windows XP](./wxp.jpg)
 <span style="font-size:9px">Skrivbord windows XP</span>
  - **Windows Vista (2007)**: Vista hade en svår start med prestandaproblem och kompatibilitetsfrågor. Det anses vara en mindre framgångsrik version.
 
  - **Windows 7 (2009)**: Windows 7 återställde förtroendet för Windows med en förbättrad användarupplevelse och bättre prestanda.
  <img src="w7.jpg">
+ ![Windows 7](./w7.jpg)
 <span style="font-size:9px">Skrivbord windows 7</span>
 
  - **Windows 8 (2012)**: Windows 8 introducerade en ny modern gränssnitt, men det mötte motstånd på grund av förändringar i användarupplevelsen.
 
  - **Windows 10 (2015)**: Windows 10 markerade en återgång till en mer traditionell användarupplevelse och erbjöd kontinuerliga uppdateringar istället för stora versionssprång.
- <img src="w10.jpg">
+     
+![Windows 10](./w10.jpg)
 <span style="font-size:9px">Skrivbord windows 10</span>
 
  - **Windows 11 (2021)**: Windows 11 är den senaste versionen och har infört en ny estetik och flera användarupplevelseförbättringar.
@@ -179,5 +181,5 @@ I windows 8 introducerades Powershell, som är ett skriptingverktyg för microso
 ## Blåskärm
 
 Om operativsystemet 
-<img src="bsod.jpg">
+![BSOD](./bsod.jpg)
 <span style="font-size:9px">*Bild tagen vid kön till attraktionen "Monster" på gröna lund*</span>
