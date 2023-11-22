@@ -15,7 +15,7 @@ color = "" #color from the theme settings
 
 # Linux
 
-<img src="Tux.svg.png"></img>
+![Linux tux](./Tux.svg.png)
 
 Linux är ett operativsystem som framförallt är känt för att vara fritt och helt gratis. Med "fritt" menas att allt som är skrivet för operativsystemet är öppet och kan användas av vem som helst. Vem som helst kan också skriva kod och förbättra operativsystemet, men det styrs av en organisation som har ansvar för att allting fungerar som det ska.
 
