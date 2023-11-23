@@ -15,7 +15,7 @@ color = "" #color from the theme settings
 
 # Linux
 
-![Linux tux](./Tux.svg.png)
+![Linux tux](/Tux.svg.png)
 
 Linux är ett operativsystem som framförallt är känt för att vara fritt och helt gratis. Med "fritt" menas att allt som är skrivet för operativsystemet är öppet och kan användas av vem som helst. Vem som helst kan också skriva kod och förbättra operativsystemet, men det styrs av en organisation som har ansvar för att allting fungerar som det ska.
 
@@ -150,9 +150,27 @@ De flesta distributioner har en *desktop*-variant och en *server*-variant av sit
 
 ## Support
 
+Support för linux finns för vissa distributioner, bland annat Fedora och Ubuntu. Detta är intressant för företag som använder linux och behöver support för att hålla igång verksamheten.
+
+Support för hem-användare finns i överflöd på internet då många som använder linux är passionerade för operativsystemet och gärna hjälper andra användare
+
 ## Anpassning
 
+Anpassningar för operativsystemet är en av dess styrkor. Linux är bara kärnan, och allt annat finns det många valmöjligheter för. Till exempel kan du ändra hur du vill ha din fönsterhanterare, två exempel är Gnome och KDE. Du kan ändra hur du vill att din filhanterare ska fungera, där finns många valmöjligheter.
+
+I de stora distributionerna som ubuntu och fedora finns många val för personer med funktionsvariationer.
+
 ## Applikationer
+
+Applikationer som kommer förinstallerade för operativsystemet varierar mycket beroende på vilken distribution som används. Men nämnvärda applikationer som följer med grundinstallationen av ubuntu är:
+
+- Libreoffice, ett officepaket som är helt gratis
+- terminalen, ett program för att komma djupare in i operativsystemet
+- Firefox, webbläsare
+- Nautilus, filhanterare
+- thunderbird, epost-applikation
+
+Ska man installera ett nytt program i ubuntu så skiljer det sig från hur man gör i windows. I windows 
 
 ## bash
 
