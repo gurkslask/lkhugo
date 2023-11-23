@@ -170,8 +170,12 @@ Applikationer som kommer förinstallerade för operativsystemet varierar mycket 
 - Nautilus, filhanterare
 - thunderbird, epost-applikation
 
-Ska man installera ett nytt program i ubuntu så skiljer det sig från hur man gör i windows. I windows 
+Ska man installera ett nytt program i ubuntu så skiljer det sig från hur man gör i windows. I windows går man som regel ut på internet för att hitta programmet och dess hemsida, så laddar man ner programmet därifrån.<br> I linux så går man helt ifrån detta då det anses osäkert, de litar inte på att man alltid får rätt kod för programmet. Istället använder linux en pakethanterare som installerar och avinstallerar program åt en. Paketen i pakethanteraren är alltid kontrollerade av distributionen så att de fungerar och att man inte får hem skadlig kod. Det är också pakethanterarens uppgift att uppdatera program, så det är mycket enklare i linux att hålla programmen uppdaterade som man använder.
 
 ## bash
 
+Skriptningsmöjligheter i linux åstadkoms via bash, som är linux motsvarighet i powershell. bash har funnits länge och anropar kommandon som finns i linux för att se till att operativsystemet fungerar som det ska. Som vanlig användare är det sällan man behöver använda bash, men vill man vara lite mer avancerad så är bash ett kraftfullt verktyg för att använda operativsystemet.
+
 ## Molntjänster
+
+Linux eller distributionerna har inga specifika molntjänster liknande *azure* för windows. Däremot använder alla molntjänster linux för sina maskiner. Man kan idag med lätthet hyra en server i molnet med linux på, och få full kontroll över servern, och det är oftast så företag jobbar som vill ha sina tjänster i molnet. Linux är ett gratis, resurssnålt och kraftfullt operativsystem som checkar i alla boxar som företag vill ha för sina molntjänster.
