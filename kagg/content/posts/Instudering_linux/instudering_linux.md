@@ -21,12 +21,14 @@ Linux är ett operativsystem som framförallt är känt för att vara fritt och 
 
 ## Historia
 Operativsystemet är skrivet av Linus Torvalds. Arbetet påbörjades år 1991.
+![Linus Torvalds](/Linus_Torvalds.jpg)
 Det var från början ett hobbyprojekt där Linus ville skriva om kärnan för operativsystemet UNIX, men det blev mycket större än Linus kunnat drömma om, och idag används det av merparten av alla servrar och även vissa privata enheter. 
 
 Kända exempel som använder Linux är:
 - **Raspberry pi**
 - Operativsystemet **Android** för mobiltelefoner 
 - **Steam Deck**.
+![Android](/nexus5.jpg)
     
 När vi pratar om Linux, måste man också nämna projektet GNU. GNU är en samling av kod och program som används av Linux. GNU är skrivet av profilen Richard Stallman som är en stark förespråkare av öppen källkod, alltså att kod ska vara fri för alla. GNU projektet har en egen licens som innebär att använder man koden för kommersiella applikationer, så krävs speciella krav.
 
@@ -58,6 +60,8 @@ En distribution är en samling av mjukvara som tillsammans med Linux-kärnar mö
 - Drivrutiner, för att kunna använda hårdvara som inte redan finns i Linux-kärnan
 
 Det finns många olika distributioner, den populäraste är **ubuntu**. Ubuntu blev populär för att den var tidig med att göra det lätt för användaren. Innan ubuntu fanns så var det väldigt svårt att få igång Linux, och det var mest för de mest inbitna datorentusiasterna.
+
+![ubuntu](/ubuntu2310.png)
 
 En annan känd distribution är **Red Hat**. Red Hat är en distribution som är skriven av ett stort företag som därför är väldigt populär för företag som kräver support. Distributionen är också väldigt säker med programvara som är grundligt testad.
 
