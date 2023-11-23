@@ -181,5 +181,5 @@ I windows 8 introducerades Powershell, som är ett skriptingverktyg för microso
 ## Blåskärm
 
 Om operativsystemet 
-![BSOD](./bsod.jpg)
+![BSOD](/bsod.jpg)
 <span style="font-size:9px">*Bild tagen vid kön till attraktionen "Monster" på gröna lund*</span>
