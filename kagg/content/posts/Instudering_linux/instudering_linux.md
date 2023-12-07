@@ -124,6 +124,7 @@ Om man jämför Linux mot det populäraste operativsystemet Windows, finns det b
 - Prestanda, Linux kan göras väldigt avskalat så att ens dator bara används till det som verkligen behövs
 - CLI command line interface, fastän att det verkar skrämmande till en början, görs många inställningar via terminalen eller kod. Detta är för många företag en fördel då det går att automatisera
 - Support och community, Linux har ett väldigt brett community med folk som brinner för operativsystemet och gärna hjälper till. Därför finns det mycket innehåll på internet om man behöver hjälp.
+- Drivrutiner för nästan all hårdvara finns inbyggd i Linux-kärnan. Därför slipper man leta efter drivrutiner vid nyinstallation av operativsystem.
 
 ### Nackdelar
 - Sämre stöd för viss hårdvara
@@ -145,12 +146,12 @@ En vanlig användare får använda datorn och de program som finns samt hantera 
 ### root användaren
 root användare finns i alla Linux-operativsystem. root användaren har fulla rättigheter på datorn och får göra vad som helst, till och med ta bort hela filsystemet. Därför är det naturligt att distributionerna kräver starka lösenord för root användaren och det är heller inte möjligt att logga in som root-användaren via nätverket, om man inte ställer in det. Ska man köra kommandon som en vanlig användare som kräver root-rättigheter, finns ett kommando som heter 
 
-    sudo
+    sudo *(förkortning av "super-user do")*
 
 som man skriver innan man installerar ett program till exempel. Då används root rättigheter just till det man vill göra, sen är man en vanlig användare igen.
 
 ## Serverversion
-De flesta distributioner har en *desktop*-variant och en *server*-variant av sitt operativsystem. Den stora skillnaden mellan desktop och server är att server varianten inte har en fönsterhanterare utan endast CLI (command line interface, alltså text). Detta för att serverns datorkraft endast ska användas till 
+De flesta distributioner har en *desktop*-variant och en *server*-variant av sitt operativsystem. Den stora skillnaden mellan desktop och server är att server varianten inte har en fönsterhanterare utan endast CLI (command line interface, alltså text). Detta för att serverns datorkraft endast ska användas till det den är gjord för att göra.
 
 ## Support
 
