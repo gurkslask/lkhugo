@@ -63,7 +63,7 @@ Det finns många olika distributioner, den populäraste är **ubuntu**. Ubuntu b
 
 ![ubuntu](/ubuntu2310.png)
 
-En annan känd distribution är **Red Hat**. Red Hat är en distribution som är skriven av ett stort företag som därför är väldigt populär för företag som kräver support. Distributionen är också väldigt säker med programvara som är grundligt testad.
+En annan känd distribution är **Red Hat Enterprise Linux (förkortas RHEL)**. RHEL är en distribution som är skriven av ett stort företag, *Red Hat*, som därför är väldigt populär för företag som kräver support. Distributionen är också väldigt säker med programvara som är grundligt testad.
 
 Position|Distribution|Popularitet|
 ---|---|---|
@@ -89,7 +89,7 @@ Såhär ser en standard filstruktur ut
     /
     ├── bin - Mapp för program
     ├── boot - Används vid datorstart
-    ├── dev - Mapp för alla hårdvara
+    ├── dev - Mapp för all hårdvara
     ├── etc - Mapp för inställningar
     ├── home - Mapp för användare, här kan man lägga sina filer
     ├── lib  - Mapp för mjukvarubibliotek
