@@ -42,7 +42,7 @@ Prompten talar om viktig information, så här är det upplagt:
 | ---- |---- |---- |---- |---- |---- |
 | användare | avdelare | datornamn | avdelare | plats i filsystemet | avslutningstecken |
 
-**Plats i filsystemet** visar alltid var man *"står"* i filsystemet för linux. Filsystemet i linux skiljer sig från windows i hur det är uppbyggt, det går att läsa mer om det [här](../Instudering_windows/instudering_windows.md). Så om man till exempel skapar en fil eller mapp, så skapas det i den mapp där man *står*.
+**Plats i filsystemet** visar alltid var man *"står"* i filsystemet för linux. Filsystemet i linux skiljer sig från windows i hur det är uppbyggt, det går att läsa mer om det [här]({{< ref "../Instudering_windows/instudering_windows.md" >}} "filsystem windows"). Så om man till exempel skapar en fil eller mapp, så skapas det i den mapp där man *står*.
 
 Exempel:
 
@@ -134,7 +134,7 @@ Står för *ReMove DIRectory* och tar bort en **tom** mapp
 
     rmdir ny_mapp
    
-Om du behöver ta bort en mapp som inte är tom, behöver du köra rm {{ <ref "#rm" > }}
+Om du behöver ta bort en mapp som inte är tom, behöver du köra [rm]({{< ref "#rm" >}} "rm")
 
 ### touch
 
@@ -240,3 +240,17 @@ Vi döpte vår mapp till *hemsida*, nu ska vi döpa om mappen till kagg-hemsida.
 - [] med hjälp av *cd*, ändra så att du står i samma mapp som din mapp *hemsida* ligger. Med andra ord, kör du *ls* så bör din mapp *hemsida* synas.
 - [] det vi har skapat är egentligen en hemsida-mall, så vi döper om mappen *hemsida* till *hemsida_mall*, med hjälp av kommandot *mv*
 - [] Nu ska vi skapa en ny hemsida så vi kopierar *hemsida_mall* till en ny mapp som vi kallar *hemsida_kagg*, med hjälp av kommadot *cp*
+    
+Nu har vi en färdig struktur för en hemsida som vi kan jobba med.
+
+## Extrauppgifter
+
+Gör ett bash skript för att skapa den här strukturen. Detta gör man genom att man skapar en fil där man skriver in alla kommandon som ni har använt och skriptet kommer köra dessa kommandon i tur och ordning uppifrån och ner.
+
+Packa ihop er mapp med hjälp av terminalen och skapa en komprimerad fil. Här finns det olika vägar att ta:
+
+    tar + gzip - Det vanligaste programmet i linux-världen är tar
+    zip - Använder samma algoritm för komprimering som .zip filer i windows
+    7zip - relativt nytt program för komprimering.
+
+Ta själva reda på hur programmen fungerar och välj ett. *man* kommandot i linux kan ge er hjälp kring hur de fungerar.
