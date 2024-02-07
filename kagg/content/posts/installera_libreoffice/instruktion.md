@@ -17,7 +17,7 @@ color = "" #color from the theme settings
 ## Mål
 Ni ska skapa en presentation för hårdvara med hjälp av libreoffice. Ni ska skapa en slide för varje hårdvarudel, och beskriva vad hårdvaran har för uppgift i en dator, vad hårdvaran har för specifikationer och en bild för hårdvaran.
 
-Ni ska också rita en översiktlig bild i paint på var hårdvaran sitter i ett datorchassi.
+Ni ska också rita en översiktlig bild i paint på var hårdvaran sitter i ett datorchassi och lägga in i presentationen.
 
 ## Montera nätverksenhet
 
@@ -33,11 +33,14 @@ Högerklicka på *Den här datorn* och välj *Anslut nätverksenhet*.
 
 ![Anslut nätverksenhet](/installera_libreoffice/2.png)
 
+
+
 - Skriv in 
 ~~~
     \\192.168.20.157\kagg_filer
 ~~~
 - Bocka ur *Återanslut vid inloggning*
+![Serveruppgifter](/installera_libreoffice/3.png)
 
 - Använd inloggninsuppgifter:
 ~~~
@@ -55,6 +58,7 @@ Högerklicka på filen och välj kopiera, alternativt markera filen och tryck *C
 Ta er till er mapp *Hämtade filer* och kopiera in filen genom att högerklicka och välj *klistra in* eller använd snabbkommando *CTRL + V*.
 
 Nu laddas filen ned. När överföringen är färdig, dubbelklicka på filen för att installera.
+![Installationsfil](/installera_libreoffice/4.png)
 
 ## Hårdvara
 
