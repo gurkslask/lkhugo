@@ -1,6 +1,6 @@
 +++
 title = "Hårdvarupresentation"
-date = "2024-02-07T14:08:14+02:00"
+date = "2024-02-06T14:08:14+02:00"
 author = ""
 authorTwitter = "" #do not include @
 cover = ""
@@ -15,7 +15,9 @@ color = "" #color from the theme settings
 # Hårdvarupresentation
 
 ## Mål
-Ni ska skapa en presentation för hårdvara med hjälp av libreoffice.
+Ni ska skapa en presentation för hårdvara med hjälp av libreoffice. Ni ska skapa en slide för varje hårdvarudel, och beskriva vad hårdvaran har för uppgift i en dator, vad hårdvaran har för specifikationer och en bild för hårdvaran.
+
+Ni ska också rita en översiktlig bild i paint på var hårdvaran sitter i ett datorchassi.
 
 ## Montera nätverksenhet
 
@@ -25,11 +27,11 @@ Här i G300 finns en server som har installationsfilen för *libreoffice* som ni
 
 Börja med att öppna utforskaren.
 
-![utforskaren](/installera_libreoffice/1.jpg)
+![utforskaren](/installera_libreoffice/1.png)
 
 Högerklicka på *Den här datorn* och välj *Anslut nätverksenhet*.
 
-![Anslut nätverksenhet](/installera_libreoffice/2.jpg)
+![Anslut nätverksenhet](/installera_libreoffice/2.png)
 
 - Skriv in 
 ~~~
@@ -54,6 +56,9 @@ Ta er till er mapp *Hämtade filer* och kopiera in filen genom att högerklicka 
 
 Nu laddas filen ned. När överföringen är färdig, dubbelklicka på filen för att installera.
 
+## Hårdvara
+
+Här nedan följer några exempel på hårdvara och bilder ni kan använda i er presentation.
 
 ## CPU
 
@@ -113,7 +118,7 @@ Dessa minnen har profiler och stöd för både AMD EXPO samt Intel XMP 3.0
 | --- | --- | --- | --- |
 | DDR5 | 6 000 MHz | 288 pin | 1.25V
 
-![ram](/installera_libreoffice/ram.png)
+![RAM](/installera_libreoffice/RAM.png)
 
 ## Chassi
 
