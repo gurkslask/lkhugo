@@ -1,5 +1,5 @@
 +++
-title = "Ovning_ansible_docker"
+title = "Övning ansible docker"
 date = "2024-03-20T09:48:49+01:00"
 author = ""
 authorTwitter = "" #do not include @
@@ -33,4 +33,11 @@ Få igång ett system som körs igång med hjälp av ansible och docker.
    - Ni behöver ändra i er playbook så att dockerfilen bygger och körs. Läs mer om *docker*-modulen [här](https://docs.ansible.com/ansible/latest/collections/community/docker/docsite/scenario_guide.html#ansible-collections-community-docker-docsite-scenario-guide) 
        
 ## När är ni färdiga?
-Ni är färdiga när ni kan köra playbooken och hemsidan automagiskt hoppar igång. Med hjälp av den här automatiseringen så kan ni utan problem köra samma playbook på vilken server som helst (så länge den kör ubuntu pga *apt*) och hemsidan hoppar i gång.
+Ni är färdiga när ni kan köra playbooken och hemsidan automagiskt på serverns IP-adress hoppar igång. Med hjälp av den här automatiseringen så kan ni utan problem köra samma playbook på vilken server som helst (så länge den kör ubuntu pga *apt*) och hemsidan hoppar i gång. 
+
+På det här sättet har ni säkerställt ett arbetssätt för serverkonfiguration, och ni har också dokumenterat ert arbete med hjälp av en dockerfil och playbook.
+
+## Vad göra sedan
+
+ - Lägg tid på kommentarer i din dockerfile och playbook. Beskriv vad varje steg gör och översätt till svenska.
+ - Lägg till en dockerfile eller docker-compose för den tjänst som ni gjorde under docker-lektionen (wordpress eller eget val)
