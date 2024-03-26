@@ -31,6 +31,7 @@ Få igång ett system som körs igång med hjälp av ansible och docker.
    - Ni behöver ändra i er playbook så att docker installeras på servern.
    - Ni behöver kopiera över er *dockerfile* och *html*-mapp. Se tll så att de ligger på samma ställe. För att kopiera filer med ansible kan man använda *copy* modulen som ni kan läsa om [här](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html) 
    - Ni behöver ändra i er playbook så att dockerfilen bygger och körs. Läs mer om *docker*-modulen [här](https://docs.ansible.com/ansible/latest/collections/community/docker/docsite/scenario_guide.html#ansible-collections-community-docker-docsite-scenario-guide) 
+   - Ni kan behöva lägga till en mapp, för att läsa mer om det [finns det här](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/file_module.html#examples)
        
 ## När är ni färdiga?
 Ni är färdiga när ni kan köra playbooken och hemsidan automagiskt på serverns IP-adress hoppar igång. Med hjälp av den här automatiseringen så kan ni utan problem köra samma playbook på vilken server som helst (så länge den kör ubuntu pga *apt*) och hemsidan hoppar i gång. 
