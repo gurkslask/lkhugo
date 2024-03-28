@@ -93,7 +93,7 @@
     - name: Create and start services codenames
       tags:
         - codenames
-      community.docker.docker_compose:
+      community.docker.docker_compose_v2:
         project_src: /srv/checkout/codenames-flask
       register: output
       environment:
