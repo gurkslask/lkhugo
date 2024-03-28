@@ -67,6 +67,12 @@
         dest: /srv/checkout/kagg
         force: true
             
+    - name: Tear down existing services codenames
+      tags:
+        - codenames
+      community.docker.docker_compose:
+        project_src: /srv/checkout/codenames-flask
+        state: absent
     - name: Tear down existing services
       community.docker.docker_compose:
         project_src: /home/oliver/lkdata
@@ -83,22 +89,13 @@
         dest: /srv/checkout/codenames-flask
         force: true
 
-    - name: Tear down existing services codenames
-      tags:
-        - codenames
-      community.docker.docker_compose:
-        project_src: /srv/checkout/codenames-flask
-        state: absent
         
     - name: Create and start services codenames
       tags:
         - codenames
       community.docker.docker_compose_v2:
         project_src: /srv/checkout/codenames-flask
-      register: output
       environment:
         COMPOSE_DOCKER_CLI_BUILD: 1
         DOCKER_BUILDKIT: 1
 
-    - ansible.builtin.debug:
-        var: output
