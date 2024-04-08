@@ -19,6 +19,15 @@ Nackdelen för företaget är att övervakningsdatorn och datorn som får in tem
 
 <br>
 
+```ditao {cmd=true}
+
++--------+
+| switch |
++--------+
+
+```
+
+
 ## Mål:
 Lär er och bygg upp ett nätverk med VLAN och managerbara switchar.
 
