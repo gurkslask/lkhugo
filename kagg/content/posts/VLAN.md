@@ -19,13 +19,6 @@ Nackdelen för företaget är att övervakningsdatorn och datorn som får in tem
 
 <br>
 
-```ditao {cmd=true}
-
-+--------+
-| switch |
-+--------+
-
-```
 
 
 ## Mål:
@@ -42,14 +35,21 @@ Lär er och bygg upp ett nätverk med VLAN och managerbara switchar.
 - Rita upp och beskriv var ni ska placera er utrustning.
 - Undersök hur ni ska få igång temperaturgivaren på en dator.
 - Kolla på filmer i classroom om VLAN och trunkning.
-- Vad behövs för material?
+- Vad behövs för material? Skapa en lista i kalkylark eller dokument.
+- Skapa en tidplan där ni funderar på hur mycket tid det behövs för de olika momenten.
 
 
 ## Utförande:
-Det finns flera stycken olika switchskåp, ni skall:
+
 - Dra en kabel från ett skåp till ett annat, ta två skåp där ni får lite längd.
 - Konfigurera switch för VLAN
 - Koppla upp datorer, bärbara eller stationära får ni välja själva.
+    - Dator för videoövervakning
+    - Övervakningskamera
+    - Dator för temperaturmätning
+    - Dator för övervakning av temperaturen
+    - Kontorsdator
+    - Router
 - Koppla in internet mot "kontors"-nätet med en router.
 - Få nätverket att fungera så att datorerna ser varandra i VLAN:en
 - Konfigurera temperaturgivaren så att det funkar
@@ -64,3 +64,4 @@ Det finns flera stycken olika switchskåp, ni skall:
 - Dokumentera även vilka VLAN som finns och vilka enheter som är anslutna var.
 - Gör också en enkel instruktion hur man kan se temperaturen samt hur man använder övervakningssystemet.
 - Dokumentera konfigurationen av switchar, och hur man ändrar det.
+- Ni ska också lämna in packet tracer filen som ni har skapat, och denna fil ska överensstämma med verkligheten
