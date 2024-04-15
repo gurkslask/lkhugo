@@ -21,20 +21,24 @@ insidan. Vilken hastighet kommer vi upp i?
 Här kommer ett förslag på ordningen ni kan jobba med:
  - Installera router
  - Kom in i routerns interface (192.168.1.1)
- - Sätt in OpenVPN Server på routern (expiration date)
- - Sätt klient och ladda ner certifikat
-
- - Anslut till wifi "2.3005" för att hamna på samma nätverk som VPN. Lösen: Minne2020
+ - Sätt in OpenVPN Server på routern (Sätt "expiration date" till långt fram i tiden)
+ - Sätt klient och skapa och ladda ner certifikat (Sätt "expiration date" till långt fram i tiden)
+----
+ - Anslut till wifi "2.3005" på din bärbara dator för att hamna på samma nätverk som VPN. Lösen: Minne2020
  - Installera open vpn connect på bärbar dator (klient)  [OpenVPN Connect](https://openvpn.net/client/client-connect-vpn-for-windows/)
- - Använd certifikat i klienten ( Kan behövas tas bort sista raden i .ovpn-filen, om openVPN klagar på "binary file")
- - Anslut till OpenVPN server
-
- - Installera [Filezilla FTP Server](https://filezilla-project.org/download.php?platform=win64&type=server) server
- - Konfigurera en användare
-
+ - Använd certifikat i klienten (Kan behövas tas bort sista raden i .ovpn-filen, om openVPN klagar på "binary file")
+ - Anslut till OpenVPN server från din bärbara dator med hjälp av certifikat och OpenVPNConnect
+----
+ - Installera [Filezilla FTP Server](https://filezilla-project.org/download.php?platform=win64&type=server) på den stationära dator
+ - Konfigurera en användare på FTP-servern som du kan ska ansluta med sen
+----
  - Installera [FTP Klient]( https://filezilla-project.org/download.php) på din laptop
- - Anslut till din IP-adress på servern
+ - Anslut till din IP-adress på servern och logga in med din skapade användare, funkar inte detta kan du behöva ställa i brandväggen på servern
  - För över filer och ta bild på hastigheten
+     
+----
+ - Avinstallera filezilla FTP server på den stationära datorn.
+ - Avinstallera filezilla FTP klient och OpenVPNConnect på din bärbara dator
 
 
 ## OpenVPN - konfiguration
