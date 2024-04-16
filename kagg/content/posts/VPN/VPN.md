@@ -33,7 +33,7 @@ Här kommer ett förslag på ordningen ni kan jobba med:
  - Konfigurera en användare i FTP servern (se guide längre ner i dokumentet)
 ---
  - Installera [FTP Klient]( https://filezilla-project.org/download.php) på din laptop
- - Anslut till din IP-adress på servern
+ - Anslut till din IP-adress på servern, funkar inte detta kan du behöva ställa i brandväggen på servern
  - För över filer och ta bild på hastigheten
 ----
  - Avinstallera filezilla FTP server på den stationära datorn.
