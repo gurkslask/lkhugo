@@ -26,14 +26,14 @@ Här kommer ett förslag på ordningen ni kan jobba med:
 ---
  - Anslut till wifi "2.3005" för att hamna på samma nätverk som VPN. Lösen: Minne2020
  - Installera open vpn connect på bärbar dator (klient)  [OpenVPN Connect](https://openvpn.net/client/client-connect-vpn-for-windows/)
- - Använd certifikat i klienten ( Kan behövas tas bort sista raden i .ovpn-filen, om openVPN klagar på "binary file")
+ - Använd certifikat i klienten ( Kan behövas tas bort sista raden i .ovpn-filen, om openVPN klagar på "binary file") ( Om den klagar på att certifikatet använder en gammal hash-version får ni gå in på "*Settings*" -> "*Advanced Settings*" -> "*Insecure*")
  - Anslut till OpenVPN server
 ---
  - Installera [Filezilla FTP Server](https://filezilla-project.org/download.php?platform=win64&type=server) server
  - Konfigurera en användare i FTP servern (se guide längre ner i dokumentet)
 ---
  - Installera [FTP Klient]( https://filezilla-project.org/download.php) på din laptop
- - Anslut till din IP-adress på servern, funkar inte detta kan du behöva ställa i brandväggen på servern
+ - Anslut till din IP-adress på servern (serverns IP-adress på nätverkskortet, använd *ipconfig* för att ta reda på denna)(funkar inte detta kan du behöva ställa i brandväggen på servern)
  - För över filer och ta bild på hastigheten
 ----
  - Avinstallera filezilla FTP server på den stationära datorn.
