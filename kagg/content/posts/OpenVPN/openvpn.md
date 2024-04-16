@@ -30,7 +30,7 @@ Här kommer ett förslag på ordningen ni kan jobba med:
  - Anslut till OpenVPN server från din bärbara dator med hjälp av certifikat och OpenVPNConnect
 ----
  - Installera [Filezilla FTP Server](https://filezilla-project.org/download.php?platform=win64&type=server) på den stationära dator
- - Konfigurera en användare på FTP-servern som du kan ska ansluta med sen
+ - Konfigurera en användare på FTP-servern som du kan ska ansluta med sen [här]({{ <ref "openvpn.md#FTP-Server"> }}).
 ----
  - Installera [FTP Klient]( https://filezilla-project.org/download.php) på din laptop
  - Anslut till din IP-adress på servern och logga in med din skapade användare, funkar inte detta kan du behöva ställa i brandväggen på servern
@@ -49,7 +49,7 @@ Inlogg till routern är:
 
 I konfigurationsinterfacet, använd certifikat för autentisering, detta kommer skapa ett certifikat som vi kan
 använda när vi ska koppla upp klienten mot servern.
-Konfiguration av FTP-server (Filezilla)
+## FTP-Server
 Ladda ner FTP-Servern Filezilla på "server"-datorn. Ladda även ner Filezilla-klienten på er "klient"-dator.
 Konfigurera Filezilla servern att peka på en mapp som ni skapar på er dator. Skapa en användare där ni låter
 den titta på mappen som ni skapat. Inställningar för användaren:
