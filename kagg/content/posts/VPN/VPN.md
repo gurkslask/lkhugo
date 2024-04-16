@@ -53,7 +53,7 @@ Ladda ner FTP-Servern Filezilla på "server"-datorn. Ladda även ner Filezilla-k
 Konfigurera Filezilla servern att peka på en mapp som ni skapar på er dator. Skapa en användare där ni låter
 den titta på mappen som ni skapat. Inställningar för användaren:
 
-    Virtual Path: \
+    Virtual Path: /
     Native Path: C:\DinMappSomDuSkapat
 
 ## Brandväggen
