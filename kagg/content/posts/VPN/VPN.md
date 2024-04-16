@@ -4,7 +4,7 @@ date = "2024-04-15T14:08:14+02:00"
 author = ""
 authorTwitter = "" #do not include @
 cover = ""
-tags = ["EE", "teknik", "nätverk"]
+tags = ["EE", "teknik", "network"]
 keywords = ["", ""]
 description = ""
 showFullContent = false
@@ -30,7 +30,7 @@ Här kommer ett förslag på ordningen ni kan jobba med:
  - Anslut till OpenVPN server
 
  - Installera [Filezilla FTP Server](https://filezilla-project.org/download.php?platform=win64&type=server) server
- - Konfigurera en användare
+ - Konfigurera en användare i FTP servern [här]({{ <ref "VPN/VPN.md#FTP-Server"> }}).
 
  - Installera [FTP Klient]( https://filezilla-project.org/download.php) på din laptop
  - Anslut till din IP-adress på servern
@@ -45,7 +45,7 @@ Inlogg till routern är:
 
 I konfigurationsinterfacet, använd certifikat för autentisering, detta kommer skapa ett certifikat som vi kan
 använda när vi ska koppla upp klienten mot servern.
-Konfiguration av FTP-server (Filezilla)
+## FTP-Server
 Ladda ner FTP-Servern Filezilla på "server"-datorn. Ladda även ner Filezilla-klienten på er "klient"-dator.
 Konfigurera Filezilla servern att peka på en mapp som ni skapar på er dator. Skapa en användare där ni låter
 den titta på mappen som ni skapat. Inställningar för användaren:
