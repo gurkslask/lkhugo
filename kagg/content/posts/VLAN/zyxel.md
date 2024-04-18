@@ -35,4 +35,4 @@ En **otaggad** port får bara finnas på ett VLAN, **otaggad** port är en port 
 
 Du måste också ställa in porten så att den använder rätt VLAN, det gör vi under **VLAN Port Setup**. Här byter vi ut siffran som står under **PVID** mot det nya VLANet vi har skapat.
 
-För trunkporten måste den vara **Fixed** mot de VLAN som ska skickas vidare. **TX Tagging** Måste vara ibockat för alla VLAN. Under **VLAN Port Setup** måste också **VLAN Trunking** för porten vara ibockad.
+För trunkporten måste den vara **Fixed** mot de VLAN som ska skickas vidare. **TX Tagging** måste vara ibockat för alla VLAN som den ska trunka. Under **VLAN Port Setup** måste också **VLAN Trunking** för porten vara ibockad.
