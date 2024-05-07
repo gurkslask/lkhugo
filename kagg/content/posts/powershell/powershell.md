@@ -117,6 +117,6 @@ Det här är en symbol som heter "Pipe", alltså rör. Symbolen används för at
 
 Som sorterar objekt enligt olika instruktioner. Sort-Object i det här fallet ser ut så här:
 
-    Sort-Object -Property CPU -Top 5 -Descending
+    Sort-Object -Property CPU 5 -Descending | Select-Object -First 5
 
-I ordning så säger vi till kommandot att den ska sortera allting den får in enligt "CPU". Alltså säger vi till den att den ska kolla på kolumnen CPU. Top 5 säger vi till kommandot för att den ska de översta 5 processerna. Och Descending betyder att den ska ta den process som tar Mest proccessorkraft och gå nedåt istället för tvärtom.
+I ordning så säger vi till kommandot att den ska sortera allting den får in enligt "CPU". Alltså säger vi till den att den ska kolla på kolumnen CPU. Select-Object säger vi till kommandot för att den ska de 5 första processerna. Och Descending betyder att den ska ta den process som tar Mest proccessorkraft och gå nedåt istället för tvärtom.
