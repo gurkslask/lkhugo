@@ -101,7 +101,7 @@ Det finns också funktionalitet för *for*. Det som används mest i powershell �
 ## Exempel på användning av powershell och *pipes*
 Powershell används även för att visualisera data. Till exempel har vi kodsnutten:
 
-    Get-Process | Sort-Object -Property CPU -Top 5 -Descending
+    Get-Process | Sort-Object -Property CPU -Descending | Select-Object -First 5
 
 Som printar ut de 5 processer på datorn som drar mest processorkraft. Här går jag igenom olika delar:
 
