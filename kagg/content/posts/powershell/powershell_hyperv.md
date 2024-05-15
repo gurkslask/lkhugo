@@ -14,7 +14,7 @@ Hyper-V skapa virtuella maskiner med powershell
 Skapa virtuella maskiner med kommandot New-VM. Hjälp och exempel ligger på https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/try-hyper-v-powershell
 
 # Uppgift 1:
-Skapa en virtuell maskin med namn "Kagg Maskin", 2048 MB minne samt 20 GB Hårddisk. Maskinen ska vara Generation: 1, den ska boota från en "CD". Lägg maskinen under "H:\Kagg Maskin". Gör detta med powershell. 
+Skapa en virtuell maskin med namn "Kagg Maskin", 2048 MB minne samt 20 GB Hårddisk. Maskinen ska vara Generation: 1, den ska boota från en "CD". Lägg maskinen under "D:\Kagg Maskin". Gör detta med powershell. 
 
 ***
 Gör så att maskinen startar med en iso-fil som är kopplad mot maskinen. Kommandot för detta är 
