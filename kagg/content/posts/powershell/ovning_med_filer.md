@@ -36,6 +36,14 @@ Med hjälp av powershell och en csv-fil ska ni skapa filer på filsystemet. CSV 
     fil, data
     C:\test\testfil.txt, Hello world
     C:\test\kagg.txt, Lars kagg
+    C:\test\alexander.txt, Svensson
+    C:\test\microsoft.txt, powershell
+
+Det som ska hända när ni kör ert script är att fyra filer skapas på hårddisken på de platser som står i csv-filen.
+
+    - Använd *import-csv* för att ladda in csv filen
+    - Kör foreach på den inladdade csv-filen
+    - I varje varv för foreach loopen skapa en fil på platsen som står i csv filen, med innehållet som står i csv filen
 
 
 Kommandon som ni kan använda är:
