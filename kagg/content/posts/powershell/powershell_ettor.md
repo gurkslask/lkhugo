@@ -45,4 +45,24 @@ När mappstrukturen är färdig så ska ni nu kopiera mappstrukturen. Man kan s�
 
 ## Få ut dator-information till en fil
 
-Nu ska ni använda powershell för att få information om program på datorn till en fil.
+Nu ska ni använda powershell för att få information om program på datorn till en fil. Informationen ni ska få ut är vilka processer på datorn som tar mest CPU.
+
+För att få ut information om vilka processer som körs på systemet finns kommandot 
+
+    Get-Process
+
+Med detta kommando får vi ut *alla* processer på datorn. För att få ut vilke processer som drar mest minne så behöver vi sortera processerna. Det gör vi med hjälp av kommandot:
+
+    Sort-Object
+
+Detta kommandot sorterar objekt, men det sorterar det på vilket namn processen har, och det är inte det vi behöver. Vi behöver lägga till en flagga som säger till kommandot att sortera beroende på mängden CPU som processen tar upp.
+
+    Sort-Object -Property CPU
+    
+Nu sorterar kommandot på vilka processer som tar minst CPU till de som tar flest. Nu behöver vi plocka ut de 5 sista processerna. Det gör vi genom att köra kommandot 
+
+    Select-Object -Last 5
+
+---- 
+
+Nu ska ni sätta ihop de här kommandona så att powershell printar ut information kring de processer som drar mest CPU på datorn till en fil på filsystemet.
