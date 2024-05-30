@@ -66,3 +66,13 @@ Nu sorterar kommandot på vilka processer som tar minst CPU till de som tar fles
 ---- 
 
 Nu ska ni sätta ihop de här kommandona så att powershell printar ut information kring de processer som drar mest CPU på datorn till en fil på filsystemet.
+
+## Extraövningar
+
+ - Använd programmet *Powershell ISE* för att skapa ett skript som automatiskt gör filstrukturen ni gjorde innan. I *Powershell ISE* kan man skriva kommandon som powershell kan köra uppifrån och ner. Till exempel:
+
+     mkdir test
+     cd test
+     new-item fil.txt
+    
+ - I *Powershell ISE* skapa ett program som frågar användaren efter deras namn och sedan skriver ut en hälsning till det namnet man skriver in.
