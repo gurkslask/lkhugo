@@ -70,9 +70,11 @@ Nu ska ni sätta ihop de här kommandona så att powershell printar ut informati
 ## Extraövningar
 
  - Använd programmet *Powershell ISE* för att skapa ett skript som automatiskt gör filstrukturen ni gjorde innan. I *Powershell ISE* kan man skriva kommandon som powershell kan köra uppifrån och ner. Till exempel:
+    <code>
 
-     mkdir test
-     cd test
-     new-item fil.txt
-    
+        mkdir test
+        cd test
+        new-item fil.txt
+
+    </code>
  - I *Powershell ISE* skapa ett program som frågar användaren efter deras namn och sedan skriver ut en hälsning till det namnet man skriver in.
