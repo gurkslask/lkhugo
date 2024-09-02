@@ -42,8 +42,8 @@ Vill man vara på samma nätverk så är det viktigt att **Nät-adressen** är s
 
 IP-adressen består alltså av **två** adresser:
 
-    - **Nät-adressen**
-    - **Host-adress**
+- **Nät-adressen**
+- **Host-adress**
 
 Detta innehåller IP-adressen fastän att den bara har fyra oktetter till exempel:
    
@@ -63,11 +63,14 @@ Till exempel:
     Nätmask: 255.255.255.0
     Nätmask i binär form: 11111111.11111111.11111111.00000000
 
-Den här nätmasken säger att de sista 8 bitarna i IP-adressen avgör vilken del av nätmasken som är **Nät-adress** eller **Host-adress**. Alltså den delen av nätmasken som innehåller **nollor** är den delen av IP-adressen som är **Host-adress**, och den delen med **ettor** är **Nät-adressen**.
+Den här nätmasken säger att de sista 8 bitarna i IP-adressen avgör vilken del av nätmasken som är **Nät-adress** eller **Host-adress**. Alltså den delen av nätmasken som innehåller **nollor** är den delen av IP-adressen som är **Host-adress**, och den delen med **ettor** är **Nät-adressen**. Med detta exempel:
+
+    Nätadress: 192.168.100.0
+    Hostadress: 100
 
 Med åtta bitar så kan man få till 256 olika kombinationer av **Host-adresser**. Räkneexempel:
     
-    1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255 (**plus nollan**) = 256
+    1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255 (plus nollan) = 256
 
 Alltså kan man ha 256 olika **host-adresser** på ett nätverk med denna nätmask.
 
@@ -106,7 +109,7 @@ Varför vill man ha ett mindre nätverk?
 - Säkrare nätverk när man delar upp de
 - Effektivare användning av IP-adresser då man kan dela upp nätverk i så stora som man behöver
 
-### Sammanfattning
+### Sammanfattning av nätmasken
 Nätmasken är ett svårt och ointuitivt begrepp att förstå men är viktigt för att förstå hur datornätverk fungerar.
 
 ## Privata IP-adresser
@@ -154,3 +157,6 @@ Med IPv6 har man inte bara sett till dagens behov utan också framtiden då det 
 - Större addressutrymme
 - Mer stöd för routing
 - Inbyggt stöd för DHCP
+
+## Sammanfattning
+IPv4 är något som idag möjiggör hela internet och alla nätverk, även om i vissa fall IPv6 används är de i kraftig minoritet
