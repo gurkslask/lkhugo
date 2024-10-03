@@ -26,6 +26,7 @@ Kör igång filen som laddades ner och tryck på *next* tills det är installera
 Öppna upp programmet *powershell*. Nu ska vi använda python för att installera programmet *esphome* som vi ska använda för att programmera minidatorn *ESP32*.
 Skriv in detta och tryck på enter
 
+    pip3 install --upgrade pip
     pip3 install wheel
     
 När det är färdigt skriv nu in detta och tryck enter:
@@ -112,3 +113,7 @@ Nu står ni i er dokument-mapp. Om ni kollar vilka filer som finns med hjälp av
 Så bör *esp.yaml* dyka upp. Då vet ni att ni står på rätt ställe.
 
 Nu ska vi ladda ner programmet till esp enheten. Det gör vi med hjälp av.
+
+    python3 -m esphome run esp.yaml
+
+
