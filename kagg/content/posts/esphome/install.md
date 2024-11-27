@@ -117,3 +117,32 @@ Nu ska vi ladda ner programmet till esp enheten. Det gör vi med hjälp av.
     python3 -m esphome run esp.yaml
 
 
+
+# MQTT
+
+MQTT är ett protokoll som vi ska använda för att skicka runt olika värden på nätverket. Det är mycket populärt i hem-automation sammanhang och det är det vi ska använda för att styra servo motorn. Vi ska installera två stycken program för att få detta att fungera:
+
+   - Mosquitto (Serverdelen av MQTT)
+   - MQTT Explorer (Klientdelen av MQTT)
+
+## Installation
+  
+Installation av programmen görs enklast via *winget* kommandot i *powershell*. Öppna powershell som *administratör* och kör:
+
+    winget install mosquitto
+    winget install mqtt-explorer
+
+## Konfiguration
+
+Vi har lite konfiguration av MQTT-servern (mosquitto) att göra. Öppna programmet *anteckningar* som **administratör**. Nu ska du öppna konfigurationsfilen som finns på den här sökvägen:
+
+    c:\Program\mosquitto\mosquitto.conf
+
+Här ska vi lägga till lite konfiguration. Lägg till de här raderna med text längst ner i filen och spara sedan filen.
+
+    listener 1883
+    allow_anonymous true
+
+## Kör tjänst
+
+För det första måste vi se till att programmet körs. Programmet är en tjänst i windows och tjänster ser man via programmet *services.msc*. Öppna detta som administratör. Hitta *Mosquitto Broker* och högerklicka på den och starta tjänsten.
