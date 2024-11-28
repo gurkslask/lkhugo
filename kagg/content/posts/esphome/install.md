@@ -1,12 +1,12 @@
 +++
-title = "Install"
+title = "Installera esphome och konfigurera"
 date = "2024-09-09T08:44:42+02:00"
 author = ""
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["övning", "EE", "Teknik"]
 keywords = ["", ""]
-description = ""
+description = "Få igång programmering för en ESP32"
 showFullContent = false
 readingTime = false
 hideComments = false
@@ -14,6 +14,9 @@ color = "" #color from the theme settings
 +++
 
 # Installera esphome på windows
+
+## Syfte
+ESP32 är en mikrodator som är väldigt populär då den är kraftfull, drar lite ström och det finns mycket dokumentation kring den. För att programmera den kan man använda samma mjukvara som för en Arduino, eller så använder man *esphome* som tar bort lite av komplexiteten. Detta ska vi utforska i den här laborationen.
 
 ## Installera python
 
@@ -24,9 +27,13 @@ Kör igång filen som laddades ner och tryck på *next* tills det är installera
 ## Installera esphome
 
 Öppna upp programmet *powershell*. Nu ska vi använda python för att installera programmet *esphome* som vi ska använda för att programmera minidatorn *ESP32*.
-Skriv in detta och tryck på enter
+
+Först måste vi uppgradera python-installationen, skriv in detta och tryck \<Enter>
 
     pip3 install --upgrade pip
+    
+Sen måste vi installera programmet *wheel*, skriv in detta och tryck enter
+
     pip3 install wheel
     
 När det är färdigt skriv nu in detta och tryck enter:
@@ -37,7 +44,7 @@ Nu är programmet esphome installerat.
 
 ## Programmering
 
-Programmeringen i esphome sker med en .yaml fil. Där skriver man ner vilken funktionalitet man vill att ESP-modulen ska ha.
+Programmeringen i *esphome* sker med en .yaml fil. Där skriver man ner vilken funktionalitet man vill att ESP-modulen ska ha.
 
 YAML är ett språk som används för att datorerna ska första vad vi människor vill göra och det använder mellanslagstangenten för att gruppera olika grupper. Till exempel:
 
@@ -100,9 +107,10 @@ En enkel konfiguration för esphome är:
     
 Här är yaml koden för att dra igång ett enkelt projekt. Det är mycket kod, men mycket är bara konfiguration för att *esphome* ska veta vilken enhet det är och sätta igång wifi. Det enda som är specifikt är egentligen lysdioden på pin nummer 17.
 
+
 ## Ladda ner till enheten
 
-Nu ska vi ladda ner yaml koden till enheten. Använd den koden i förra avsnittet och klistra in det i ett textdokument som ni lägger i er *Dokument*-mapp och döper till *esp.yaml*. Nu ska ni öppna powershell på er dator och skriva
+Nu ska vi ladda ner yaml koden till enheten. Använd **koden i förra avsnittet och klistra in det i ett textdokument** som ni lägger i er *Dokument*-mapp och döper till *esp.yaml*. Nu ska ni öppna powershell på er dator och skriva
 
     cd $HOME/Documents
 

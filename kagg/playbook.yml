@@ -61,10 +61,16 @@
         state: latest
         update_cache: true
 
-    - name: Clone git repo
+    - name: Clone git repo kagg
       ansible.builtin.git:
         repo: 'https://github.com/gurkslask/lkhugo'
         dest: /srv/checkout/kagg
+        force: true
+
+    - name: Clone git repo codenames
+      ansible.builtin.git:
+        repo: 'https://github.com/gurkslask/codenames-flask'
+        dest: /srv/checkout/codenames-flask
         force: true
             
     - name: Tear down existing services codenames
@@ -73,6 +79,7 @@
       community.docker.docker_compose:
         project_src: /srv/checkout/codenames-flask
         state: absent
+
     - name: Tear down existing services
       community.docker.docker_compose:
         project_src: /home/oliver/lkdata
@@ -83,11 +90,6 @@
         project_src: /home/oliver/lkdata
       register: output
 
-    - name: Clone git repo codenames
-      ansible.builtin.git:
-        repo: 'https://github.com/gurkslask/codenames-flask'
-        dest: /srv/checkout/codenames-flask
-        force: true
 
         
     - name: Create and start services codenames
