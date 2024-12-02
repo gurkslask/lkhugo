@@ -174,11 +174,11 @@ Nu ska vi lägga in en ny kod till ESP32 som lägger till funktionalitet för at
 
     # Här ger vi enheten ett namn
     esphome:
-    name: temp1
+        name: temp1
 
     # Här skriver vi vad det är för en sorts enhet
     esp32:
-    board: az-delivery-devkit-v4
+        board: az-delivery-devkit-v4
     framework:
         type: arduino
 
@@ -187,13 +187,13 @@ Nu ska vi lägga in en ny kod till ESP32 som lägger till funktionalitet för at
 
     # Här sätter vi igång så man kan programmera enheten via wifi
     ota:
-    - platform: esphome
+      - platform: esphome
         password: "no"
 
     # Här konfigurerar vi en webb-server så man kan se enheten via en webbläsare (chrome till exempel)
     web_server:
-    port: 80
-    version: 1
+        port: 80
+        version: 1
 
 
     # Här konfigurerar vi pin nummer 17 så att vi kan styra den
@@ -211,15 +211,15 @@ Nu ska vi lägga in en ny kod till ESP32 som lägger till funktionalitet för at
 
     # Här ställer vi in wifi för enheten, wifi-namn och lösenord
     wifi:
-    ssid: "2.3005"
-    password: "Minne2020"
+        ssid: "2.3005"
+        password: "Minne2020"
 
     captive_portal:
 
     # Här lägger vi till IP-adress till MQTT servern. HÄR MÅSTE NI ÄNDRA IP ADRESS TILL BROKER för att få det att fungera
     mqtt:
-    broker: 192.168.20.206
-    id: mqtt_test
+        broker: 192.168.20.206
+        id: mqtt_test
     # Här ställer vi in så att så fort ESP32 får ett meddelande så togglar den lysdioden
     on_message:
         topic: "home/led/set"
