@@ -179,8 +179,8 @@ Nu ska vi lägga in en ny kod till ESP32 som lägger till funktionalitet för at
     # Här skriver vi vad det är för en sorts enhet
     esp32:
         board: az-delivery-devkit-v4
-    framework:
-        type: arduino
+        framework:
+            type: arduino
 
     # Här sätter vi igång så att enheten loggar (skriver ut) information
     logger:
@@ -221,11 +221,11 @@ Nu ska vi lägga in en ny kod till ESP32 som lägger till funktionalitet för at
         broker: 192.168.20.206
         id: mqtt_test
     # Här ställer vi in så att så fort ESP32 får ett meddelande så togglar den lysdioden
-    on_message:
-        topic: "home/led/set"
-        then:
-        - light.toggle:
-            id: lo
+        on_message:
+            topic: "home/led/set"
+            then:
+            - light.toggle:
+                id: lo
 
 ## Testa MQTT
 
