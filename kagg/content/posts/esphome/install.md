@@ -198,12 +198,12 @@ Nu ska vi lägga in en ny kod till ESP32 som lägger till funktionalitet för at
 
     # Här konfigurerar vi pin nummer 17 så att vi kan styra den
     output:
-    - platform: gpio
+      - platform: gpio
         pin: GPIO17
         id: light_output
     # Här säger vi att pin 17 är en lysdiod som är binär (av/på)
     light:
-    - platform: binary
+      - platform: binary
         name: "Lysdiod"
         id: lo
         output: light_output
