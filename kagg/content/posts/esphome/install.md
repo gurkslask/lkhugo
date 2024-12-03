@@ -22,6 +22,8 @@ ESP32 är en mikrodator som är väldigt populär då den är kraftfull, drar li
 
 *esphome* kräver programmeringsspråket *python* så det är det första vi måste installera. <a href= "https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe">Installationen finns här </a>
 
+    https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe
+
 Kör igång filen som laddades ner och tryck på *next* tills det är installerat
 
 ## Installera esphome
@@ -30,7 +32,7 @@ Kör igång filen som laddades ner och tryck på *next* tills det är installera
 
 Först måste vi uppgradera python-installationen, skriv in detta och tryck \<Enter>
 
-    pip3 install --upgrade pip
+    python -m pip install --upgrade pip
     
 Sen måste vi installera programmet *wheel*, skriv in detta och tryck enter
 
