@@ -237,7 +237,7 @@ I högerkanten kan ni själva publicera ett meddelande som skickas till alla som
 
 ![Publish](/ESP32/publish.png)
 
-    ## Kod för servo motor
+## Kod för servo motor
 
     # Här ger vi enheten ett namn
     esphome:
