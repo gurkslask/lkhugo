@@ -241,94 +241,94 @@ I högerkanten kan ni själva publicera ett meddelande som skickas till alla som
 
     # Här ger vi enheten ett namn
     esphome:
-        name: temp1
+      name: temp1
 
     # Här skriver vi vad det är för en sorts enhet
     esp32:
-        board: az-delivery-devkit-v4
-        framework:
-            type: arduino
+      board: az-delivery-devkit-v4
+      framework:
+        type: arduino
 
     # Här sätter vi igång så att enheten loggar (skriver ut) information
     logger:
 
     # Här sätter vi igång så man kan programmera enheten via wifi
     ota:
-      - platform: esphome
-        password: "no"
+    - platform: esphome
+      password: "no"
 
     # Här konfigurerar vi en webb-server så man kan se enheten via en webbläsare (chrome till exempel)
     web_server:
-        port: 80
-        version: 2
+      port: 80
+      version: 2
 
 
     # Här konfigurerar vi pin nummer 17 så att vi kan styra den
     output:
-      - platform: gpio
-        pin: GPIO17
-        id: light_output
+    - platform: gpio
+      pin: GPIO17
+      id: light_output
 
-      - platform: ledc
-        pin: GPIO5
-        id: servo_output
-        frequency: 50Hz
+    - platform: ledc
+      pin: GPIO5
+      id: servo_output
+      frequency: 50Hz
 
     # Här säger vi att pin 17 är en lysdiod som är binär (av/på)
     light:
-      - platform: binary
-        name: "Lysdiod"
-        id: lo
-        output: light_output
-        command_topic: "home/led/set"
+    - platform: binary
+      name: "Lysdiod"
+      id: lo
+      output: light_output
+      command_topic: "home/led/set"
 
     servo:
-        id: my_servo
-        output: servo_output
+      id: my_servo
+      output: servo_output
 
     # Här ställer vi in wifi för enheten, wifi-namn och lösenord
     wifi:
-        ssid: "2.3005"
-        password: "Minne2020"
+      ssid: "2.3005"
+      password: "Minne2020"
 
     captive_portal:
 
     sensor:
-      - platform: mqtt_subscribe
-        name: "Data from topic"
-        id: servovalue
-        topic: sensors/servo/servo_1
-        unit_of_measurement: "%"
-        on_value:
+    - platform: mqtt_subscribe
+      name: "Data from topic"
+      id: servovalue
+      topic: sensors/servo/servo_1
+      unit_of_measurement: "%"
+      on_value:
         then:
-              - servo.write:
-                id: my_servo
-                level: !lambda |-
-                return  (x / 100) - 1;
+          - servo.write:
+             id: my_servo
+             level: !lambda |-
+               return  (x / 100) - 1;
 
     number:
-      - platform: template
-        name: Servo Control
-        min_value: -100
-        initial_value: 0
-        max_value: 100
-        step: 1
-        optimistic: true
-        set_action:
+    - platform: template
+      name: Servo Control
+      min_value: -100
+      initial_value: 0
+      max_value: 100
+      step: 1
+      optimistic: true
+      set_action:
         then:
-              - servo.write:
-                id: my_servo
-                level: !lambda 'return x / 100.0;'
+          - servo.write:
+              id: my_servo
+              level: !lambda 'return x / 100.0;'
 
     mqtt:
         broker: 192.168.20.206
         id: mqtt_test
         on_message:
-            topic: "home/led/set"
-            then:
-                - lambda: |-
-                    if (x == "ON") {
-                    id(light_output).turn_on();
-                    } else if (x == "OFF") {
-                    id(light_output).turn_off();
-                    } 
+          topic: "home/led/set"
+          then:
+            - lambda: |-
+                if (x == "ON") {
+                  id(light_output).turn_on();
+                } else if (x == "OFF") {
+                  id(light_output).turn_off();
+                } 
