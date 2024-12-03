@@ -64,7 +64,7 @@ YAML är ett språk som används för att datorerna ska första vad vi människo
 
 Med den här texten har jag skapat en subgrupp till grupp ett, och **två** subgrupper till grupp 2. Så på det sätt kan man använda yaml för att grupper data.
 
-En enkel konfiguration för esphome är:
+En enkel konfiguration för esphome **som ni kan använda** är:
 
     # Här ger vi enheten ett namn
     esphome:
