@@ -22,6 +22,8 @@ ESP32 är en mikrodator som är väldigt populär då den är kraftfull, drar li
 
 *esphome* kräver programmeringsspråket *python* så det är det första vi måste installera. <a href= "https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe">Installationen finns här </a>
 
+    https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe
+
 Kör igång filen som laddades ner och tryck på *next* tills det är installerat
 
 ## Installera esphome
@@ -30,7 +32,7 @@ Kör igång filen som laddades ner och tryck på *next* tills det är installera
 
 Först måste vi uppgradera python-installationen, skriv in detta och tryck \<Enter>
 
-    pip3 install --upgrade pip
+    python -m pip install --upgrade pip
     
 Sen måste vi installera programmet *wheel*, skriv in detta och tryck enter
 
@@ -62,7 +64,7 @@ YAML är ett språk som används för att datorerna ska första vad vi människo
 
 Med den här texten har jag skapat en subgrupp till grupp ett, och **två** subgrupper till grupp 2. Så på det sätt kan man använda yaml för att grupper data.
 
-En enkel konfiguration för esphome är:
+En enkel konfiguration för esphome **som ni kan använda** är:
 
     # Här ger vi enheten ett namn
     esphome:
