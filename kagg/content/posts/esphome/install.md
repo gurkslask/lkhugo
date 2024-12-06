@@ -237,6 +237,10 @@ I högerkanten kan ni själva publicera ett meddelande som skickas till alla som
 
 ![Publish](/ESP32/publish.png)
 
+## Servomotor
+
+Nu ska vi koppla in en servo motor. Kolla kopplingsschemat och koppla in den på rätt GPIO. Det ska gå att styra servomotorn via webb-sidan och MQTT servern.
+
 ## Kod för servo motor
 
     # Här ger vi enheten ett namn
@@ -332,3 +336,28 @@ I högerkanten kan ni själva publicera ett meddelande som skickas till alla som
                 } else if (x == "OFF") {
                   id(light_output).turn_off();
                 } 
+
+## DS18b20 - Temperatur
+
+*DS18b20* är en komponent som kan mäta temperatur och leverera det till en ESP32 bland annat. *DS18b20* använder en digital buss som kallas *one-wire*. Varje *DS18b20* har en egen unik adress och det betyder att man kan ha flera stycken *DS18b20* på samma ingång då de alla har olika adresser som man kan använda.
+
+Vi behöver lägga till lite kod för att upptäcka vad adressen är för den *DS18b20* som vi har kopplat in, det gör vi med hjälp av nedanstående kod
+
+    # Er förra kod
+    one_wire:
+      - platform: gpio
+        pin: GPIO16
+
+Här **måste** ni ställa in rätt *GPIO* där ni kopplat in *DS18b20*. I terminalen går det att se vilken address det är på *DS18b20*. När ni har **skrivit ner** vilken address den har så ska vi lägga till lite kod i programmet för att kunna visa temperaturen.
+
+    # Er förra kod
+    one_wire:
+    - platform: gpio
+      pin: GPIO16
+    sensor:
+    - platform: dallas_temp
+      name: temperature
+      update_interval: 5s
+      address: 0x7e092254908e7328
+
+Här måste ni ställa in **address** till det som ni har fått fram.
