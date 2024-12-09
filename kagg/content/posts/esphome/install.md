@@ -24,7 +24,7 @@ ESP32 är en mikrodator som är väldigt populär då den är kraftfull, drar li
 
     https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe
 
-Kör igång filen som laddades ner och tryck på *next* tills det är installerat
+Kör igång filen som laddades ner. Det här är installationen av Python och **DET ÄR SUPERVIKTIGT** att ni kryssar i **"Add python.exe to PATH"** i början av installationen **PLUS** att ni i slutet av installationen trycker på **Disable path length limit**. 
 
 ## Installera esphome
 
