@@ -350,13 +350,8 @@ Vi behöver lägga till lite kod för att upptäcka vad adressen är för den *D
       - platform: gpio
         pin: GPIO16
 
-Här **måste** ni ställa in rätt *GPIO* där ni kopplat in *DS18b20*. I terminalen går det att se vilken address det är på *DS18b20*. När ni har **skrivit ner** vilken address den har så ska vi lägga till lite kod i programmet för att kunna visa temperaturen.
+Här **måste** ni ställa in rätt *GPIO* där ni kopplat in *DS18b20*. I terminalen går det att se vilken address det är på *DS18b20*. När ni har **skrivit ner** vilken address den har så ska vi lägga till lite kod i programmet för att kunna visa temperaturen. **Denna koden måste läggas under "*sensor*".**
 
-    # Er förra kod
-    one_wire:
-    - platform: gpio
-      pin: GPIO16
-    sensor:
     - platform: dallas_temp
       name: temperature
       update_interval: 5s
