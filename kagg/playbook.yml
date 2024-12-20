@@ -76,18 +76,18 @@
     - name: Tear down existing services codenames
       tags:
         - codenames
-      community.docker.docker_compose:
+      community.docker.docker_compose_v2:
         project_src: /srv/checkout/codenames-flask
         state: absent
 
     - name: Tear down existing services
-      community.docker.docker_compose:
-        project_src: /home/oliver/lkdata
+      community.docker.docker_compose_v2:
+        project_src: /srv/checkout/kagg/kagg
         state: absent
         
     - name: Create and start services
-      community.docker.docker_compose:
-        project_src: /home/oliver/lkdata
+      community.docker.docker_compose_v2:
+        project_src: /srv/checkout/kagg/kagg
       register: output
 
 
