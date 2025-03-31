@@ -8,7 +8,7 @@ tags = ["EE", "övning"]
 keywords = ["", ""]
 description = ""
 showFullContent = false
-draft = true
+draft = false
 +++
 
 # Övning VLAN
@@ -25,13 +25,15 @@ Nackdelen för företaget är att övervakningsdatorn och datorn som får in tem
 Lär er och bygg upp ett nätverk med VLAN och managerbara switchar.
 
 
+![Övning](/VLAN_ovning.svg)
+
 <div style='page-break-after: always;'></div>
 
 ## Förberedelse:
 
-- Gruppera er i 4 grupper så ni får en server i serverracken var.<br>
+- Gruppera er i 5 grupper så ni får en server i serverracken var.<br>
 - Skapa en nätverkstopologi i PacketTracer där ni får till nätverket som ni vill ha det. Detta kommer ni använda som dokumentation till det praktiska arbetet.
-- Kolla manueler för switchar och testa att koppla upp er så ni kommer in i CLI-interface
+- Kolla manueler för switchar och testa att koppla upp er så ni kommer in i deras webb-interface
 - Rita upp och beskriv var ni ska placera er utrustning.
 - Undersök hur ni ska få igång temperaturgivaren på en dator.
 - Kolla på filmer i classroom om VLAN och trunkning.
@@ -43,11 +45,12 @@ Lär er och bygg upp ett nätverk med VLAN och managerbara switchar.
 
 - Dra en kabel från ett skåp till ett annat, ta två skåp där ni får lite längd.
 - Konfigurera switch för VLAN
+- Installera *windows server* på servern och installera *Hyper-V*
 - Koppla upp datorer, bärbara eller stationära får ni välja själva.
-    - Dator för videoövervakning
+    - Virtuell maskin för videoövervakning
     - Övervakningskamera
-    - Dator för temperaturmätning
-    - Dator för övervakning av temperaturen
+    - Virtuell maskin för home-assistant
+    - ESP32 för temperaturmätning
     - Kontorsdator
     - Router
 - Koppla in internet mot "kontors"-nätet med en router.
@@ -56,7 +59,7 @@ Lär er och bygg upp ett nätverk med VLAN och managerbara switchar.
 - Konfigurera övervakningssystemet så det funkar
 - Gör märkning av kablar och eventuella uttag.
 - Gör kabellistor där ni listar vilka och hur långa kablar ni har dragit, få också med var de är anslutna.
-- Gör en dokumentation över nätverket, där ni skriver ner konfigurationen av nätverket.
+- Gör en dokumentation över nätverket, där ni skriver ner konfigurationen av nätverket. Här kan ni gärna använda er *packet tracer*
 
 ## Dokumentation:
 - Ni skall dokumentera arbetet med kabellistor där det står angivet hur långa kablar som är dragna och var de ansluts.
