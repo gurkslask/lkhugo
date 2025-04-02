@@ -53,6 +53,8 @@ Inlogg till routern är:
     User: admin
     Password: admin
 
+Konfiguration för OpenVPN hittar du under "Configuration -> OpenVPN -> OpenVPN server". Om konfiguration för OpenVPN redan finns så måste du återställa inställningarna för OpenVPN på "Maintenance -> Factory Default -> Factory Default including OpenVPN". Detta tar ungefär en minut.
+
 I konfigurationsinterfacet, använd certifikat för autentisering, detta kommer skapa ett certifikat som vi kan
 använda när vi ska koppla upp klienten mot servern.
 ## FTP-Server
