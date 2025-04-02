@@ -19,28 +19,35 @@ insidan. Vilken hastighet kommer vi upp i?
 
 ## Tillvägagångssätt
 Här kommer ett förslag på ordningen ni kan jobba med:
+### På routern
  - Installera router
  - Kom in i routerns interface (192.168.1.1)
- - Sätt in OpenVPN Server på routern (expiration date)
- - Sätt klient och ladda ner certifikat
+ - Konfigurera OpenVPN Server på routern (expiration date)
+ - Konfigurera en klient och ladda ner certifikat för klienten
 ---
+### På er bärbara dator
  - Anslut till wifi "2.3005" för att hamna på samma nätverk som VPN. Lösen: Minne2020
  - Installera open vpn connect på bärbar dator (klient)  [OpenVPN Connect](https://openvpn.net/client/client-connect-vpn-for-windows/)
  - Använd certifikat i klienten ( Kan behövas tas bort sista raden i .ovpn-filen, om openVPN klagar på "binary file") ( Om den klagar på att certifikatet använder en gammal hash-version får ni gå in på "*Settings*" -> "*Advanced Settings*" -> "*Insecure*")
- - Anslut till OpenVPN server
+ - Anslut till routerns *OpenVPN server*
+ ### På er stationära dator
 ---
  - Installera [Filezilla FTP Server](https://filezilla-project.org/download.php?platform=win64&type=server) server
  - Konfigurera en användare i FTP servern (se guide längre ner i dokumentet)
+### På er bärbara dator
 ---
  - Installera [FTP Klient]( https://filezilla-project.org/download.php) på din laptop
  - Anslut till din IP-adress på servern (serverns IP-adress på nätverkskortet, använd *ipconfig* för att ta reda på denna)(funkar inte detta kan du behöva ställa i brandväggen på servern)
  - För över filer och ta bild på hastigheten
+ ### När ni är färdiga
 ----
  - Avinstallera filezilla FTP server på den stationära datorn.
  - Avinstallera filezilla FTP klient och OpenVPNConnect på din bärbara dator
 
 
 ## OpenVPN - konfiguration
+För att återställa routern (*Linksys LRT214*) håll inne reset knappen i ungefär 25 sekunder. För att sedan komma in i webbinterfacet, koppla in en dator på port 1-4 och surfa in på IP-adress *192.168.1.1*
+
 Inlogg till routern är:
 
     User: admin
