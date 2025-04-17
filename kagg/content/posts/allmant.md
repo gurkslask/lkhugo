@@ -1,6 +1,6 @@
 +++
 title = "Allmant"
-date = "2025-04-17T10:37:43+02:00"
+date = "2023-04-17T10:37:43+02:00"
 author = ""
 authorTwitter = "" #do not include @
 cover = ""
