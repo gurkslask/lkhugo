@@ -17,12 +17,13 @@ color = "" #color from the theme settings
 Sätt upp routern som OpenVPN-server och skicka filer mellan två datorer, en "utanför" routern, och en från
 insidan. Vilken hastighet kommer vi upp i?
 
+
 ## Tillvägagångssätt
 Här kommer ett förslag på ordningen ni kan jobba med:
 ### På routern
  - Installera router
  - Kom in i routerns interface (192.168.1.1)
- - Konfigurera OpenVPN Server på routern (expiration date)
+ - Konfigurera OpenVPN Server på routern (expiration date) [Instruktion](#openvpn---konfiguration)
  - Konfigurera en klient och ladda ner certifikat för klienten
 ---
 ### På er bärbara dator
