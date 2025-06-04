@@ -27,3 +27,7 @@ Sen måste vi söka igenom antalet portar som är öppna på den maskin som vi v
     nmap -p1-10000 *IP_ADRESSEN*
 
 Med detta kommando frågar vi enheten på IP adressen vilka portar som är öppna, oc vi ser att endast SSH porten är öppen
+
+Nu kan vi testa logga in på servern med ett *guest* konto:
+    
+    ssh guest@*DEN IP ADRESS NI VILL TESTA*
