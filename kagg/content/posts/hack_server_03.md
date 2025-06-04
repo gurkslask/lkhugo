@@ -37,4 +37,6 @@ Nu är root användarens hash i filen "hash.txt" som vi kan använda. Vi ska nu 
 
 Vi väljer "-m 1800" så att programmet vet att vi jobbar med SHA-512, det finns i hjälpen de olika lägena om det är någon annan hash-algoritm som används. "-a 0" så säger vi till programmet att den ska hitta rätt hash värden. "hash.txt" är filen med root användarens hash lösenord som vi ska jobba mot och "./rockyou.txt" är filen med en massa lösenord som programmet ska testa. 
 
-När programmet är färdigt kommer den att printa ut hashen och lösenordet för root användaren som vi kan använda för att logga in som root.
+När programmet är färdigt kommer den att printa ut hashen och lösenordet för root användaren som vi kan använda för att logga in som root med nedanstående kommando
+
+    ssh root@*IPADRESS*
