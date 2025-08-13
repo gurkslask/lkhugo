@@ -59,8 +59,28 @@ Installera drivrutin för att kommunicera med ESP32 bland annat
 [Länk](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 
 ## Kör systemåterställning
-Visa hur man skapar en återställningspunkt. Detta är en viktig säkerhetsfunktion som kan rädda ett system vid problem. De kan sedan testa att "återställa" systemet.
+Skapa en återställningspunkt, detta är som att man *sparar* operativsystemet. Detta kan man använda för att *rädda* ett operativsystem.
+
+Testa sedan att återställa systemet "tillbaka" till din återställningspunkt.
 
 ## Konfigurera Windows-brandväggen
-Låt dem skapa en enkel regel i Windows Defender Brandvägg med avancerad säkerhet, till exempel att blockera inkommande trafik på en specifik port.
-Kanske för att tillåta ping
+I en vanlig installation av windows 11 så är ping-funktionen avstängd (ICMP-protokollet). Du ska tillåta ping på datorn
+
+# Policy för användare
+I windows kan man ställa in hur mycket olika användare kan göra via något som kallas **grupp-principer**. Med detta kan man begränsa användarens möjlighet att ställa operativsystemet. Detta är användbart för att användaren inte ska kunna göra fel konfiguration.
+
+Dessa inställningar ska **bara gällla användaren du har skapat**!
+
+Ett sätt att få det här att fungera är att köra programmet *Micosoft Management Console* som man startar på följande vis:
+
+
+    Windows-tangent + r (Ni ska alltså trycka på dessa knappar samtidigt på tangentbordet)
+    mmc (Skriv in detta i fönstret)
+    enter (Tryck på *enter* på tangentbordet)
+    
+
+
+## Ställ in skrivbordsbakgrund
+Ställ in så att användaren inte kan ändra skrivbordsbakgrund, utan istället ska skrivbordet visa den bild du har valt.
+
+## Ställ in så att användaren inte kan ändra på sina nätverksanslutningar
