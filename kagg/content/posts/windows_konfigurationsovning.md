@@ -42,7 +42,7 @@ Testa så det går att logga in som användaren
 Ställ in så att en skärmsläckare går igång efter 5 minuter
 
 ### Anpassa startmenyn
-Låt eleverna lägga till eller ta bort appar från startmenyn och anpassa layouten.
+Lägg till och ta bort några appar från startmenyn.
 
 ### Installera program 
 Installera programmen:
