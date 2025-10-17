@@ -28,6 +28,8 @@ Ni ska jobba i grupper som tillhandahålls av Alex. 6 stycken grupper eftersom v
 - Konfigurera router och hitta var internet finns
 - Gör ett kalkylblad med nätverksinställningar för nätverket. Ta reda på hur många datorer (hostar) som krävs och skriv ner vilka IP-adresser de ska ha
 - Bestäm vilket företagsnamn och domännamn ni ska ha
+- Gör en *ritning* för systemet i *presentation* eller liknande
+- **Dela alla dokument med alla i gruppen** så att om någon är sjuk så kan ni fortfarande fortsätta
 
 ## Installera Windows Server 2022 standard med hyper-V i Lilla Serverhallen
 
@@ -35,7 +37,8 @@ Ni ska ta en server och installera Windows Server 2022. Därefter få igång Hyp
 
 Ni ska montera en router som är ansluten till internet, alltså vårat 192.168.20.0/24 - nät som finns här uppe. Ta reda på vilken nätadress och subnätmask som är optimal för nätverket.
 
-Sätt igång med arbetet för att installera windows server på servern. Kör gärna "Skärmskrivbord" så att ni inte behöver trängas inne i serverrummet.
+Sätt igång med arbetet för att installera windows server på servern.
+När ni fått igång servern kör *"Skärmskrivbord"* så att ni inte behöver trängas inne i serverrummet.
 
 Dra kabel till erat "kontor" där ni ska koppla in datorerna. Alla kablar skall kopplas in i Patchpanelen.
 
