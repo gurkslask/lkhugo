@@ -97,6 +97,10 @@ title = 'Lars Kagg data'
         identifier = "EE"
         name = "EE"
         url = "/tags/ee"
+      [[languages.en.menu.main]]
+        identifier = "Teknik"
+        name = "Teknik"
+        url = "/tags/teknik"
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
