@@ -16,7 +16,7 @@ title = 'Lars Kagg data'
   themeColor = "orange"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 4
 
   # show selector to switch language
   showLanguageSelector = false
@@ -97,6 +97,10 @@ title = 'Lars Kagg data'
         identifier = "Teknik"
         name = "Teknik"
         url = "/tags/teknik"
+      [[languages.en.menu.main]]
+        identifier = "Taggar"
+        name = "Taggar"
+        url = "/tags"
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
