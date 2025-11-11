@@ -42,7 +42,7 @@ Du måste också ställa in porten så att den använder rätt VLAN, det gör vi
 
 För trunkporten måste den vara **Fixed** mot de VLAN som ska skickas vidare. **TX Tagging** måste vara ibockat för alla VLAN som den ska trunka. Under **VLAN Port Setup** måste också **VLAN Trunking** för porten vara ibockad.
 
-## Spara inställningar i switchen
+## Spara
 
 **Alla** inställningar man gör i switchen **försvinner** om man startar om den. Detta är ett beteende som är *default* i switchen för att **om** man gör en fel-konfiguration ska man lätt kunna komma tillbaka in i switchen. Om man vill **spara** så att switchen kommer ihåg:
 
@@ -64,7 +64,7 @@ Du måste också ställa in porten så att den använder rätt VLAN, det gör vi
 Nu har vi skapat ett nytt VLAN, nu kan det vara en bra ide att spara inställningarna.
 Gör detta först [först]({{ <ref "zyxel.md#Spara"> }}).
  [här]({{ <ref "linux_kommandon_text.md#Pipes"> }}).
-[först]("#Spara inställningar i switchen")
+[först]("#Spara")
 
 Nästa steg är att säga till switchen att den ska bara kommas åt via det nya VLAN'et. Detta gör vi genom att klicka oss fram till:
 
