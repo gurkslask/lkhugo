@@ -64,6 +64,7 @@ Du måste också ställa in porten så att den använder rätt VLAN, det gör vi
 Nu har vi skapat ett nytt VLAN, nu kan det vara en bra ide att spara inställningarna.
 Gör detta först [först]({{ <ref "zyxel.md#Spara"> }}).
  [här]({{ <ref "linux_kommandon_text.md#Pipes"> }}).
+[först]("Spara")
 
 Nästa steg är att säga till switchen att den ska bara kommas åt via det nya VLAN'et. Detta gör vi genom att klicka oss fram till:
 
