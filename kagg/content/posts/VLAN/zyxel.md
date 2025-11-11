@@ -61,7 +61,8 @@ En **otaggad** port får bara finnas på ett VLAN, **otaggad** port är en port 
 
 Du måste också ställa in porten så att den använder rätt VLAN, det gör vi under **VLAN Port Setup**. Här byter vi ut siffran som står under **PVID** mot det nya VLANet vi har skapat.
 
-Nu har vi skapat ett nytt VLAN, nu kan det vara en bra ide att spara inställningarna. Gör detta först [först]( {{ ref "#Spara inställningar i switchen"}}).
+Nu har vi skapat ett nytt VLAN, nu kan det vara en bra ide att spara inställningarna.
+Gör detta först [först]({{ <ref "#Spara inställningar i switchen">}}).
 
 Nästa steg är att säga till switchen att den ska bara kommas åt via det nya VLAN'et. Detta gör vi genom att klicka oss fram till:
 
