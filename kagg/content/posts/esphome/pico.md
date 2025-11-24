@@ -56,7 +56,7 @@ Nu är ni klara för att börja programmera enheten och kunna skicka ner program
 
 ## Connect-funktion
 
-  def connect():
+    def connect():
         #Connect to WLAN
         wlan = network.WLAN(network.STA_IF)
         wlan.active(True)
