@@ -1,5 +1,5 @@
 +++
-title = "Pico"
+title = "Programmering av raspberry pico W"
 date = "2025-11-21T11:18:33+01:00"
 author = ""
 authorTwitter = "" #do not include @
@@ -13,6 +13,31 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
+# Raspberry Pico W
+
+## Syfte
+Det här är en uppgift där vi ska lyckas koppla upp en minidator *Raspberry Pico W* till ett wifi-nätverk och där man ska kunna styra en lysdiod via en webbsida. I den här textguiden finns lite kod-exempel som ni kan använda ihop med en [video-guide](https://youtube.com).
+
+## Installation av mjukvara
+
+Programmeringen kommer ske i ett program som heter *thonny*. [Programmet laddas ner här](https://thonny.org/). 
+
+Efter installation behöver ni installera ett bibliotek som heter **picozero**. 
+
+Tryck på 
+
+    Tools > Manage packages...
+
+Om **picozero** redan finns i det vänstra fältet är det redan installerat på er dator. Om det inte gör det får ni söka upp det och installera det i samma fönster.
+
+
+## Installation av firmware
+
+På er *raspberry pico zero* så finns det ingen *firmware* per default. Den måste vi installera så att raspberryn fattar den koden vi ska skicka till den. Det är väldigt enkelt att göra i **thonny**. Bara tryck **längst ner till höger** i programmet så dyker det upp en meny där ni kan installera *micropython* till enheten.
+
+## Programmering
+
+Nu är ni klara för att börja programmera enheten och kunna skicka ner program. Nedan kommer lite program exempel som ni kan använda medan ni följer video-genomgången. Detta är alltså **kod som jag använder i videos**.
 
 ## Import av bibliotek
 
