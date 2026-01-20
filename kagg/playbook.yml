@@ -69,19 +69,6 @@
         dest: /srv/checkout/kagg
         force: true
 
-    - name: Clone git repo codenames
-      ansible.builtin.git:
-        repo: 'https://github.com/gurkslask/codenames-flask'
-        dest: /srv/checkout/codenames-flask
-        force: true
-            
-    - name: Tear down existing services codenames
-      tags:
-        - codenames
-      community.docker.docker_compose_v2:
-        project_src: /srv/checkout/codenames-flask
-        state: absent
-
     - name: Tear down existing services
       tags:
       - updateweb
@@ -96,8 +83,21 @@
         project_src: /srv/checkout/kagg/kagg
       register: output
 
+    - name: Clone git repo codenames
+      tags:
+        - codenames
+      ansible.builtin.git:
+        repo: 'https://github.com/gurkslask/codenames-flask'
+        dest: /srv/checkout/codenames-flask
+        force: true
 
-        
+    - name: Tear down existing services codenames
+      tags:
+        - codenames
+      community.docker.docker_compose_v2:
+        project_src: /srv/checkout/codenames-flask
+        state: absent
+
     - name: Create and start services codenames
       tags:
         - codenames
@@ -106,4 +106,33 @@
       environment:
         COMPOSE_DOCKER_CLI_BUILD: 1
         DOCKER_BUILDKIT: 1
+            
+    - name: Clone git repo ritmonflow
+      tags:
+        - ritmonflow
+      args:
+      ansible.builtin.git:
+        repo: 'https://github.com/gurkslask/ritmoyflow'
+        dest: /srv/checkout/ritmonflow
+        force: true
+
+    - name: Tear down existing services ritmonflow
+      tags:
+        - ritmonflow
+      community.docker.docker_compose_v2:
+        project_src: /srv/checkout/ritmonflow/ritmoyflow
+        state: absent
+
+    - name: Create and start services ritmonflow
+      tags:
+        - ritmonflow
+      community.docker.docker_compose_v2:
+        project_src: /srv/checkout/ritmonflow/ritmoyflow
+      environment:
+        COMPOSE_DOCKER_CLI_BUILD: 1
+        DOCKER_BUILDKIT: 1
+
+
+
+        
 
