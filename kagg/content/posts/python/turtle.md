@@ -163,6 +163,20 @@ Bilden som skapas är
 
 Det jag har ändrat är hur många **gånger** koden körs och hur mycket sköldpaddan **vrider** sig
 
+### 360 gånger
+
+Koden här under körs 360 gånger
+
+    # Säg till koden att detta ska köras 360 gånger
+    for _ in range(360):
+        # Denna koden som är under här körs 360 gånger
+        t.forward(1)
+        t.right(1)
+
+Bilden som skapas är 
+![fyrkant](/turtle/4.png)
+
+Det jag har ändrat är hur många **gånger** koden körs och hur mycket sköldpaddan **vrider** sig och hur långt sköldpaddan "går"
 
 ### Rita KAGG
 
