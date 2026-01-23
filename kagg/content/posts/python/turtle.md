@@ -162,3 +162,17 @@ Bilden som skapas är
 
 
 Det jag har ändrat är hur många **gånger** koden körs och hur mycket sköldpaddan **vrider** sig
+
+
+### Rita KAGG
+
+![fyrkant](/turtle/kagg.png)
+
+För att lyckas med denna så behöver man behärska vanliga linjer och att göra en halvcirkel. Några nya grejer är också:
+    
+    up() - Man lyften "pennan" som ritar
+    down() - Man sätter ner "pennan" som ritar
+    seth(0) - Peka sköldpaddan ÖSTER (höger)
+    seth(90) - Peka sköldpaddan NORR (uppåt)
+    seth(180) - Peka sköldpaddan VÄSTER (vänster)
+    seth(270) - Peka sköldpaddan SÖDER (neråt)
