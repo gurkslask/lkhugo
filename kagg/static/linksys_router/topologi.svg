@@ -90,6 +90,11 @@
    <g id="container-id1">
     <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
      <g class="Page">
+      <defs class="SlideBackground">
+       <g id="bg-id1" class="Background">
+        <path fill="rgb(102,102,102)" stroke="none" d="M 14837,20986 L -13,20986 -13,-13 29686,-13 29686,20986 14837,20986 Z"/>
+       </g>
+      </defs>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id3">
         <rect class="BoundingBox" stroke="none" fill="none" x="17224" y="5443" width="1592" height="1592"/>
@@ -107,13 +112,13 @@
       <g class="TextShape">
        <g id="id5">
         <rect class="BoundingBox" stroke="none" fill="none" x="8177" y="2587" width="6669" height="3096"/>
-        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="8427" y="3288"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Router</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="8427" y="3999"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">WAN: 10.0.0.X/24</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="8427" y="4710"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">LAN: 192.168.X.1/24</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="8427" y="3288"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">Router</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="8427" y="3999"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">WAN: 10.0.0.X/24</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="8427" y="4710"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">LAN: 192.168.X.1/24</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="TextShape">
        <g id="id6">
         <rect class="BoundingBox" stroke="none" fill="none" x="14527" y="2587" width="6986" height="3096"/>
-        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="14777" y="3288"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Router</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="14777" y="3999"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">WAN: 10.0.0.X/24</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="14777" y="4710"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">LAN: 192.168.X.1/24</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="14777" y="3288"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">Router</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="14777" y="3999"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">WAN: 10.0.0.X/24</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="14777" y="4710"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">LAN: 192.168.X.1/24</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
@@ -126,13 +131,13 @@
       <g class="TextShape">
        <g id="id8">
         <rect class="BoundingBox" stroke="none" fill="none" x="1192" y="2587" width="7303" height="2523"/>
-        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="1442" y="3288"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">PC</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="1442" y="3999"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">IP: 192.168.X.100/24</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="1442" y="4710"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Gateway: 192.168.X.1</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="1442" y="3288"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">PC</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="1442" y="3999"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">IP: 192.168.X.100/24</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="1442" y="4710"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">Gateway: 192.168.X.1</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="TextShape">
        <g id="id9">
         <rect class="BoundingBox" stroke="none" fill="none" x="21003" y="2605" width="7303" height="2523"/>
-        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="21253" y="3306"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">PC</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="21253" y="4017"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">IP: 192.168.X.100/24</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="21253" y="4728"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Gateway: 192.168.X.1</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="21253" y="3306"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">PC</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="21253" y="4017"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">IP: 192.168.X.100/24</tspan></tspan></tspan><tspan class="TextParagraph"><tspan class="TextPosition" x="21253" y="4728"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">Gateway: 192.168.X.1</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
