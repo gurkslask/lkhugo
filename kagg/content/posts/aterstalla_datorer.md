@@ -17,7 +17,8 @@ color = "" #color from the theme settings
 
 ### [] Återställ datorn via Inställningar -> System -> Återställning -> Återställ datorn
 ### [] Språk ska vara svenska
-### [] Användarnamn: admin, lösenord: Minne2025
+### [] Datornamn ska vara PCxx beroende på plats
+### [] Användarnamn: admin, lösenord: Minne2026
 ### [] Kagg_filer ska finnas på C: disken
 ### [] Hyper-V ska installeras och säkerställas att det funkar
 ### [] ALLT på D: disken ska bort, detta är de virtuella maskinerna
@@ -25,6 +26,8 @@ color = "" #color from the theme settings
 [Instruktion finns här](https://simplificandoredes.com/en/install-ssh-server-windows-11/)
 ### [] Testa så ssh fungerar på datorn
 ### [] Installera chrome
+### [] Installera WSL2 (Windows Subsystem for Linux)
+[Instruktion finns här](https://learn.microsoft.com/en-us/windows/wsl/install)
 ### [] Packet tracer ska installeras
 Installationen ska finnas i mappen kagg_filer
 ### [] Datorn ska ha ett namn beroende på placering av datorn, exempel "PC17"
