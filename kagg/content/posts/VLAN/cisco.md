@@ -19,6 +19,10 @@ color = "" #color from the theme settings
 
 Den här guiden är en resurs som man kan använda ihop med videon för **VLAN** i *packet tracer*. Här kommer jag skriva i text vad som görs under de olika stegen och jag kommer **framförallt** skriva kommandon som används i videon.
 
+**Längst ner** finns en [begreppslista](#begreppslista) med olika begrepp och förklaringar som kan vara bra att känna till.
+
+När ni är färdiga med videos så finns det också [Extra utmaningar](#extra-utmaningar) som ni kan göra för att visa hur hög förståelse ni har om VLAN.
+
 ## Komma in i konfigurerings läge
 
 För att komma in i *upphöjt* läge i switchen
@@ -95,3 +99,41 @@ Från prompten **(config)#** skriv:
     interface fastEthernet 0/1
     switchport mode trunk
     switchport trunk allowed vlan 1-99
+
+## Extra utmaningar
+
+ - Få igång management vlan och inloggning till den andra (högra) switchen
+ - Gör ett nytt vlan med vlan-id som är över 100 ( >100) och få det att fungera via trunk
+  - Gör en dator på högersidan som är på VLAN 99 och kan styra switcharna
+   - Gör en till switch där du endast trunkar VLAN 50 och VLAN 99
+   - Gör en router som routrar mellan två VLAN
+
+## Begreppslista
+
+ - **VLAN-id (VLAN-ID)**: Det unika numret (t.ex. VLAN 10 eller VLAN 20) som identifierar ett specifikt virtuellt nätverk. Det fungerar som ett "gruppnummer" för att skilja olika nätverk åt i samma switch.
+
+ - **Accessport**: En nätverksport på en switch som bara tillhör ett enda VLAN. Den används för att ansluta vanliga slutenheter som datorer, skrivare eller IP-telefoner.
+
+ - **Trunkport**: En nätverksport som kan transportera trafik från flera olika VLAN samtidigt. Används oftast i kablar mellan två switchar eller mellan en switch och en router.
+
+ - **Nätverksport**: Den fysiska kontakten (oftast RJ45 för Ethernet) på en switch, router eller dator där du sätter i nätverkskabeln.
+
+IP- och Nätverksbegrepp
+ - **IP-adress**: Enhetens unika digitala "hemadress" på nätverket (t.ex. 192.168.1.50). Den gör att datapaket hittar fram till rätt enhet.
+
+ - **Nät-id (Network ID)**: Den del av IP-adressen som talar om vilket nätverk enheten tillhör (motsvarar gatunamnet i en postadress). Alla enheter i samma VLAN har normalt samma nät-id.
+
+ - **Host-id (Host ID)**: Den del av IP-adressen som är unik för den enskilda enheten på det nätverket (motsvarar husnumret i en postadress).
+
+
+**Taggad vs. Otaggad trafik (Tagged / Untagged):**
+
+ - **Otaggad (Untagged)**: Vanlig nätverkstrafik utan VLAN-märkning. Datorer skickar nästan alltid otaggad trafik.
+
+ - **Taggad (Tagged)**: Trafik där switchen har lagt till en liten digital "lapp" (enligt standarden 802.1Q) med VLAN-id:t så att nästa switch vet vilket VLAN paketet hör till.
+
+ - **Nätmask (Subnet Mask)**: Den "regel" som bestämmer var gränsen går mellan Nät-id och Host-id i en IP-adress.
+
+ - **Inter-VLAN Routing**: VLAN är helt isolerade från varandra för säkerhets skull. Om en dator på VLAN 10 vill prata med en dator på VLAN 20 behövs en router (eller en Layer 3-switch) som släpper igenom trafiken däremellan.
+
+ - **Native VLAN**: Det specifika VLAN på en trunkport som hanterar all trafik som råkar komma in utan en VLAN-tagg.
