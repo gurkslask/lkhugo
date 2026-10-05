@@ -6,7 +6,7 @@ authorTwitter = "" #do not include @
 cover = ""
 tags = ["EE", "övning"]
 keywords = ["", ""]
-description = ""
+description = "Övning med VLAN"
 showFullContent = false
 draft = false
 +++

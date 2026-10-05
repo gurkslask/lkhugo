@@ -1,4 +1,3 @@
-
 +++
 title = "Linux kommandon filer"
 date = "2024-02-06T11:08:14+02:00"
@@ -7,7 +6,7 @@ authorTwitter = "" #do not include @
 cover = ""
 tags = ["EE", "teknik", "linux"]
 keywords = ["", ""]
-description = ""
+description = "Material för att jobba med linux kommando, framförallt filer"
 showFullContent = false
 readingTime = false
 hideComments = false

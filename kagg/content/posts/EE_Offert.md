@@ -6,7 +6,7 @@ authorTwitter = "" #do not include @
 cover = ""
 tags = ["EE", "övning"]
 keywords = ["", ""]
-description = ""
+description = "Skapa en offert till kund med kalkylark"
 showFullContent = false
 draft = true
 +++

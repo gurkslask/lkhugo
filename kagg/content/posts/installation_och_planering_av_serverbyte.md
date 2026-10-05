@@ -6,7 +6,7 @@ authorTwitter = "" #do not include @
 cover = ""
 tags = ["övning", "EE"]
 keywords = ["", ""]
-description = ""
+description = "Instruktion för serverbytesövning"
 showFullContent = false
 draft= true
 +++
