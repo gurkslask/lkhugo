@@ -50,13 +50,19 @@ Installera programmen:
  - GIMP
  - Powertoys
  - Firefox
+ 
+### Ställ in tillgänglighetsalternativ
+Ställ in alternativ som hjälper användaren som är hörselskadad.
+
+ 
+# C-Nivå
 
 ### Sätta upp nätverksdelning
 Ställ så att en mapp på din dator delas ut på nätverket. När du är färdig ska du kunna komma åt mappen *utanför* din virtuella maskin. Det ska inte vara användarnamn eller lösenord.
 
 ### Installera drivrutin
 Installera drivrutin för att kommunicera med ESP32 bland annat
-[Länk](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
+[Länk](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads). Beskriv hur man gör detta om ni inte lyckas installera.
 
 ### Kör systemåterställning
 Skapa en återställningspunkt, detta är som att man *sparar* operativsystemet. Detta kan man använda för att *rädda* ett operativsystem.
