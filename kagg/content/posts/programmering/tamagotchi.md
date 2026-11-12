@@ -29,7 +29,7 @@ Ni ska nu bygga en meny där användaren får välja hur den vill interagera med
 Efter varje val, printa ut vad du gör med din tamagotchi.
 
 
-## Steg 2 - Statusv
+## Steg 2 - Statusvariabler
 
 Skapa variabler som säger om din tamagotchi är:
  - trött
